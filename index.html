@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>P&L Consultoría Estratégica</title>
     <!-- css -->
-    <link rel="stylesheet" href="./assets/css/style.css?21120231930" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- css / templates -->
+    <link rel="stylesheet" href="./assets/css/style_temp.css?21120231930" />
     <!-- favicon -->
     <link
       rel="shortcut icon"
@@ -34,12 +36,10 @@
 
       <nav class="navbar">
         <a href="#home" class="active">Inicio</a>
-        <a href="#about-us">Nosotros</a>
-        <a href="#mission-objectives">Misión</a>
-        <a href="#services">Servicios</a>
-        <a href="#experience">Experiencia</a>
+        <a href="./section/about-us.html">Nosotros</a>
+        <a href="./section/services.html">Servicios</a>
         <a href="#blog">Blog</a>
-        <a class="contact" href="#contact">Contacto</a>
+        <a href="./section/contact-us.html">Contacto</a>
 
         <span class="active-nav"></span>
       </nav>
@@ -63,7 +63,7 @@
         </p>
 
         <div class="btn-box">
-          <a href="#about-us" class="btn">Información</a>
+          <a href="./section/about-us.html" class="btn">Información</a>
           <a href="#contact" class="btn">Hablemos</a>
         </div>
 
@@ -102,14 +102,10 @@
       </div>
     </div>
 
-    <!-- section about us structure -->
-    <section class="about-us" id="about-us">
-      <div class="about-content">
-        <div class="about-separator">
-          <span id="separator"></span>
-          <p id="about">¿Quíenes somos?</p>
-        </div>
-        <h1>Sobre nuestra compañía</h1>
+    <!-- section customer structure -->
+    <section class="customers" id="home">
+      <div class="customers-content">
+        <h1>Nuestros Clientes</h1>
       </div>
     </section>
 
@@ -130,10 +126,14 @@
           </div>
 
           <div class="box">
-            <h2>Compañía</h2>
+            <h2>Nosotros</h2>
             <div class="text">
-              <a href="#about-us" title="Section about-us">Sobre nosotros</a>
-              <a href="#services" title="Section services">Servicios</a>
+              <a href="./section/about-us.html" title="Section about-us"
+                >Sobre nosotros</a
+              >
+              <a href="./section/services.html" title="Section services"
+                >Servicios</a
+              >
               <a href="#experience" title="Section experience">Experiencia</a>
             </div>
           </div>

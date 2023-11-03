@@ -314,7 +314,8 @@ section {
   width: 8rem;
 }
 
-.footer p {
+.footer p,
+a {
   font-size: 1.6rem;
   color: #515151;
 }
@@ -338,7 +339,10 @@ section {
 }
 
 .footer .text {
-  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  width: 150px;
   margin-left: 2rem;
 }
 
@@ -472,8 +476,13 @@ section {
     font-size: 2rem;
   }
 
-  .footer p {
-    font-size: 1.3rem;
+  .footer p,
+  a {
+    font-size: 1.4rem;
+  }
+
+  .footer .row1 .text {
+    margin-left: 3rem;
   }
 }
 
@@ -563,6 +572,58 @@ section {
   .footer .group1 img {
     width: 5rem;
   }
+
+  .footer .group1 {
+    padding: 2rem;
+  }
+
+  .footer .group1 {
+    flex-direction: column;
+  }
+
+  .footer p,
+  a {
+    font-size: 1.3rem;
+  }
+
+  .footer .row1 .text {
+    margin-left: 3rem;
+  }
+
+  .row2 {
+    flex-direction: row-reverse;
+  }
+
+  .row2 .contact-us {
+    padding-top: 1rem;
+  }
+
+  .contact-us .text2 {
+    margin-left: -4rem;
+    text-align: center;
+  }
+
+  .footer .group2 {
+    height: 10rem;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footer .footer-iconTop {
+    padding-bottom: 1rem;
+  }
+
+  .footer .group2 p {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .footer .social-media {
+    align-items: center;
+    justify-content: center;
+    margin-left: -2rem;
+    width: 25%;
+  }
 }
 
 @media (max-width: 425px) {
@@ -585,56 +646,6 @@ section {
   .btn-box .btn {
     width: 13rem;
     font-size: 1.5rem;
-  }
-
-  /* footer / 550px */
-
-  .footer .group1 {
-    padding: 2rem;
-  }
-
-  .footer .group1 {
-    flex-direction: column;
-  }
-
-  .footer h2 {
-    font-size: 2rem;
-  }
-
-  .row2 {
-    flex-direction: row-reverse;
-  }
-
-  .row2 .contact-us {
-    margin-left: -10rem;
-    padding-top: 1rem;
-  }
-
-  .contact-us .text2 {
-    margin-left: -3rem;
-    text-align: center;
-  }
-
-  .footer .group2 {
-    height: 10rem;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .footer .footer-iconTop {
-    padding-bottom: 1rem;
-  }
-
-  .footer .group2 p {
-    text-align: center;
-    padding: 1rem;
-  }
-
-  .footer .social-media {
-    align-items: center;
-    justify-content: center;
-    margin-left: -6rem;
-    width: 25%;
   }
 }
 

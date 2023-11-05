@@ -40,6 +40,10 @@ body p {
   font-size: 1.8rem;
 }
 
+span {
+  color: var(--main-color);
+}
+
 /* HEADER - NAVBAR*/
 body,
 .logo,

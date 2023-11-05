@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --second-bg-color: #112e42;
+  --text-color: black;
+  --main-color: #149ddd;
+}
+
+.vector {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+}
+
+section {
+  min-height: 100vh;
+}
+
+/* SECTION ABOUT - US */
+.header-content {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-content .img img {
+  padding: 1rem 2rem;
+}
+
+.header-content .text {
+  width: 50%;
+}
+
+.about-content .img {
+  position: relative;
+  z-index: 3;
+}
+
+.header-content .text p,
+.header-content .text h1 {
+  margin-top: 1.5rem;
+}
+
+.comments {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 3;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.comments h2 {
+  font-size: 4.5rem;
+  margin-bottom: 2rem;
+}
+
+.comments .text {
+  width: 55%;
+}
+
+.images {
+  position: relative;
+}
+
+#img03 {
+  width: 521px;
+  height: 346px;
+}
+
+.vector2 {
+  position: absolute;
+  right: 0;
+  margin-right: -10rem;
+  margin-top: -32rem;
+  z-index: 1;
+}
+
+.comment-inf {
+  display: flex;
+  width: 55%;
+  margin-top: -10rem;
+}
+
+.comment {
+  width: 100%;
+  border-right: 0.7px solid var(--second-bg-color);
+  padding: 2rem;
+}
+
+.comment-inf .comment p {
+  margin-bottom: 2rem;
+}
+
+.comment-inf .comment i {
+  font-size: 1.8rem;
+  color: var(--second-bg-color);
+}
+
+@media (max-width: 1620px) {
+  .header-content .img01 {
+    width: 250px;
+    height: 240px;
+  }
+  .header-content .img02 {
+    width: 280px;
+    height: 310px;
+  }
+
+  .comment-inf {
+    margin-top: -5rem;
+  }
+
+  .vector2 {
+    margin-right: -5rem;
+  }
+
+  #img03 {
+    width: 490px;
+    height: 310px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .comments h2 {
+    font-size: 3.5rem;
+  }
+
+  .comment-inf {
+    margin-top: -10rem;
+  }
+
+  .comment-inf,
+  .comments .text {
+    width: 50%;
+  }
+
+  .comment-inf .comment i {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 1305px) {
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-content {
+    margin: 0;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .header-content .img {
+    padding-top: 3rem;
+  }
+
+  .header-content .text {
+    width: 70%;
+    text-align: center;
+  }
+
+  .comments {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .comments .text {
+    text-align: center;
+    width: 70%;
+    margin-bottom: 5rem;
+  }
+
+  #img03 {
+    margin-bottom: 5rem;
+  }
+
+  .images {
+    display: none;
+  }
+
+  .comment-inf {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1024px) {
+  #img03 {
+    width: 450px;
+    height: 270px;
+  }
+
+  .header-content .img img {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-content .text {
+    width: 80%;
+  }
+
+  .comments .text {
+    width: 90%;
+  }
+
+  .comment-inf {
+    width: 90%;
+  }
+}
+
+@media (max-width: 655px) {
+  .header-content .img01 {
+    width: 210px;
+    height: 200px;
+  }
+  .header-content .img02 {
+    width: 240px;
+    height: 270px;
+  }
+
+  .header-content .img img {
+    padding: 0 1rem;
+  }
+
+  .comment-inf {
+    width: 100%;
+  }
+}
+
+@media (max-width: 555px) {
+  .header-content .img01 {
+    width: 160px;
+    height: 150px;
+  }
+  .header-content .img02 {
+    width: 190px;
+    height: 220px;
+  }
+
+  #img03 {
+    width: 400px;
+    height: 220px;
+  }
+
+  .comment-inf {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .comment {
+    border-radius: 10px;
+    border-bottom: 2px solid var(--text-color);
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 435px) {
+  .header-content h1 {
+    font-size: 3.5rem;
+  }
+
+  .comments h2 {
+    font-size: 3rem;
+  }
+
+  .header-content .img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-content .img01 {
+    width: 120px;
+    height: 120px;
+  }
+
+  .header-content .img02 {
+    width: 160px;
+    height: 180px;
+  }
+
+  #img03 {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 375px) {
+  #img03 {
+    width: 320px;
+    height: 160px;
+  }
+}

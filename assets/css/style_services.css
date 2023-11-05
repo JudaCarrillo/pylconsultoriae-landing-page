@@ -36,10 +36,6 @@ section {
 }
 
 /* SECTION SERVICES */
-.services {
-  /* z-index: 90; */
-}
-
 .services-content {
   min-height: 100vh;
   background: #eaf2f8;
@@ -237,6 +233,10 @@ section {
 }
 
 @media (max-width: 454px) {
+  .services-content h1 {
+    font-size: 4rem;
+  }
+
   .box-content .services-box {
     height: 30rem;
   }

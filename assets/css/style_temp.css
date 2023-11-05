@@ -118,6 +118,8 @@ section {
 
 /* FOOTER */
 .footer {
+  position: relative;
+  z-index: 90;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>P&L Consultoría Estratégica</title>
     <!-- css -->
-    <link rel="stylesheet" href="../assets/css/style_contact.css?51123" />
+    <link rel="stylesheet" href="../assets/css/style_contact.css?5112023" />
     <!-- css / templates -->
-    <link rel="stylesheet" href="../assets/css/style_temp.css?51123" />
+    <link rel="stylesheet" href="../assets/css/style_temp.css?5112023" />
     <!-- favicon -->
     <link
       rel="shortcut icon"
@@ -89,17 +89,12 @@
         </div>
 
         <div class="contact-form">
-          <div
-            id="message-register"
-            class="p pb-2 mb-4 my-4 text-danger border-bottom border-danger d-none"
-          ></div>
-
-          <form action="../contact/contact.php" class="form" method="post">
+          <form action="../form/form.php" class="form" method="post">
             <div class="input-box">
               <div class="input-field">
                 <input
                   type="text"
-                  name="Nombre_completo"
+                  name="nombre"
                   placeholder="Nombre completo"
                   required
                 />
@@ -108,7 +103,7 @@
               <div class="input-field">
                 <input
                   type="email"
-                  name="Correo_electrónico"
+                  name="email"
                   placeholder="Correo electrónico"
                   required
                 />
@@ -120,7 +115,7 @@
               <div class="input-field">
                 <input
                   type="number"
-                  name="Número_de_teléfono"
+                  name="telefono"
                   placeholder="Número de teléfono"
                   required
                 />
@@ -129,7 +124,7 @@
               <div class="input-field">
                 <input
                   type="text"
-                  name="Asunto"
+                  name="asunto"
                   placeholder="Asunto del correo"
                   required
                 />
@@ -139,8 +134,7 @@
 
             <div class="textarea-field">
               <textarea
-                name="Mensaje"
-                id=""
+                name="mensaje"
                 cols="30"
                 rows="10"
                 placeholder="Mensaje"

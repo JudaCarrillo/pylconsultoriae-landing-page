@@ -2,11 +2,11 @@ $(document).ready(function () {
   $(".form").submit(function (e) {
     e.preventDefault();
 
-    let nombre = $("input[name='Nombre_completo']").val();
-    let correo = $("input[name='Correo_electrónico']").val();
-    let telefono = $("input[name='Número_de_teléfono']").val();
-    let asunto = $("input[name='Asunto']").val();
-    let mensaje = $("textarea[name='Mensaje']").val();
+    let nombre = $("input[name='nombre']").val();
+    let correo = $("input[name='email']").val();
+    let telefono = $("input[name='telefono']").val();
+    let asunto = $("input[name='asunto']").val();
+    let mensaje = $("textarea[name='mensaje']").val();
 
     if (
       nombre.trim() === "" ||
@@ -15,23 +15,18 @@ $(document).ready(function () {
       asunto.trim() == "" ||
       mensaje.trim() == ""
     ) {
-      $("#message-register")
-        .removeClass("d-none")
-        .removeClass("border-success text-success")
-        .addClass("border-danger text-danger")
-        .text("Campos obligatorios incompletos o vacíos");
-      return;
+      alert("Campos obligatorios incompletos o vacíos.");
     }
 
     $.ajax({
       type: "POST",
-      url: "./contact.php",
+      url: "../form/form.php",
       data: $(this).serialize(),
       dataType: "json",
 
       success: function (response) {
         if (response.success) {
-          $(".new_state")[0].reset();
+          $(".form")[0].reset();
           alert(response.message);
         } else {
           alert(response.message);

@@ -1,3 +1,5 @@
+import cachebust from 'gulp-cache-bust'
+
 let menuIcon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
 
@@ -34,3 +36,13 @@ window.onscroll = () => {
   menuIcon.classList.remove("bx-x");
   navbar.classList.remove("active");
 };
+
+// cache
+
+gulp.task('cache', () => {
+  gulp.src('./public/**/*.html')
+    .pipe(cachebust({
+      type: 'timestamp'
+    }))
+    .pipe(gulp.dest('./public'));
+})

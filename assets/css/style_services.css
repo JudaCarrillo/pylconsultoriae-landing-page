@@ -18,18 +18,6 @@
   --main-color: #149ddd;
 }
 
-body h1 {
-  font-size: 5.6rem;
-  position: relative;
-  display: inline-block;
-  font-weight: 700;
-  line-height: 1.3;
-}
-
-body p {
-  font-size: 1.8rem;
-}
-
 section {
   min-height: 100vh;
   padding: 0rem 0% 0rem;

@@ -50,7 +50,7 @@ section {
 
 .home-content p {
   position: relative;
-  width: 90%;
+  width: 75%;
   text-align: justify;
   font-size: 14px;
   margin: 2rem 0 4rem;
@@ -182,7 +182,14 @@ section {
 }
 
 /* box of experience */
+.prueba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .experience {
+  width: 50%;
   margin-top: -2.5rem;
   z-index: 99;
   display: flex;
@@ -196,15 +203,16 @@ section {
 .box-experience {
   text-align: center;
   padding: 0.5rem;
-  border-top: 1px solid var(--second-bg-color);
-  border-bottom: 1px solid var(--second-bg-color);
+  /* border-top: 1px solid var(--second-bg-color); */
+  /* border-bottom: 1px solid var(--second-bg-color); */
 
   max-width: 50%;
   box-sizing: border-box;
 }
 
 .box-experience b {
-  font-size: 5rem;
+  font-size: 5.5rem;
+  color: var(--main-color);
 }
 
 /* SECTION ABOUT US */

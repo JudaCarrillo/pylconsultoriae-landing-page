@@ -14,9 +14,9 @@
              <div class="box">
                  <h4>Nosotros</h4>
                  <div class="text">
-                     <a href="./section/about-us.html" title="Section about-us">Sobre nosotros</a>
-                     <a href="./section/services.html" title="Section services">Servicios</a>
-                     <a href="#customers" title="Section experience">Experiencia</a>
+                     <a href="<?php echo $ftAbout ?>" title="Section about-us">Sobre nosotros</a>
+                     <a href="<?php echo $ftServices ?>" title="Section services">Servicios</a>
+                     <a href="<?php echo $ftExperience ?>" title="Section experience">Experiencia</a>
                  </div>
              </div>
          </div>
@@ -45,7 +45,7 @@
          </p>
 
          <div class="footer-iconTop">
-             <a href="#home" title="Volver al inicio"><i class="bx bx-up-arrow-alt"></i></a>
+             <a href="<?php echo $ftInit ?>" title="Volver al inicio"><i class="bx bx-up-arrow-alt"></i></a>
          </div>
      </div>
  </footer>

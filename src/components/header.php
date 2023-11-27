@@ -1,4 +1,4 @@
-<!-- header structure -->
+<!-- header -->
 <header class="header">
     <a href="#home" class="logo"><img src="<?php echo $rutaImg ?>" alt="Logo de P&L Consultoría Estratégica" />
         <p>Consultoría Estratégica</p>

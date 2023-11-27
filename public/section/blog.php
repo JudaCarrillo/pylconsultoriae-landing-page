@@ -8,6 +8,11 @@ $sectionServices  = './services.php';
 $sectionBlog = '#blog';
 $sectionContact = './contact.php';
 
+$ftAbout = './about-us.php';
+$ftServices = './services.php';
+$ftExperince = '../index.php/#customers';
+$ftInit = '#blog';
+
 $classHome = '';
 $classAbout = '';
 $classServices = '';
@@ -23,9 +28,9 @@ $classContact = '';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>P&L Consultoría Estratégica</title>
   <!-- css -->
-  <link rel="stylesheet" href="../../assets/css/style_blog.css?t=1701050835200" />
+  <link rel="stylesheet" href="../../assets/css/style_blog.css?t=1701055761221" />
   <!-- css / templates -->
-  <link rel="stylesheet" href="../../src/styles/style.css?t=1701050835200" />
+  <link rel="stylesheet" href="../../assets/css/style_comp.css?t=1701055761221" />
   <!-- favicon -->
   <link rel="shortcut icon" href="../../assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -174,7 +179,7 @@ $classContact = '';
   ?>
 
   <!-- js -->
-  <script src="../assets/js/main.js?t=1701050835200"></script>
+  <script src="../assets/js/main.js?t=1701055761221"></script>
 </body>
 
 </html>

@@ -1,12 +1,17 @@
 <?php
-$rutaImg = '../assets/img/logo.svg';
-$rutaImgFt = '../assets/img/logo.svg';
+$rutaImg = './assets/img/logo.svg';
+$rutaImgFt = './assets/img/logo.svg';
 
 $sectionHome = '#home';
 $sectionAboutUs = './section/about-us.php';
 $sectionServices  = './section/services.php';
 $sectionBlog = './section/blog.php';
 $sectionContact = './section/contact.php';
+
+$ftAbout = './section/about-us.php';
+$ftServices = './section/services.php';
+$ftExperince = '#customers';
+$ftInit = '#home';
 
 $classHome = 'active';
 $classAbout = '';
@@ -23,11 +28,11 @@ $classContact = '';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>P&L Consultoría Estratégica</title>
   <!-- css / templates -->
-  <link rel="stylesheet" href="../src/styles/style.css?t=1701050835192">
+  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701055761211">
   <!-- css -->
-  <link rel="stylesheet" href="../assets/css/style.css  ?t=1701050835192" />
+  <link rel="stylesheet" href="./assets/css/style.css?t=1701055761211" />
   <!-- favicon -->
-  <link rel="shortcut icon" href="../assets/img/logo.svg" type="image/x-icon" />
+  <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 </head>
@@ -68,7 +73,7 @@ $classContact = '';
     </div>
   </section>
 
-  <img class="vector" src="../assets/img/vector2.svg" alt="" />
+  <img class="vector" src="./assets/img/vector2.svg" alt="" />
 
   <div class="prueba">
     <div class="experience">
@@ -106,7 +111,7 @@ $classContact = '';
   <!-- scroll reveal / js -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <!-- js -->
-  <script src="../assets/js/main.js?t=1701050835192"></script>
+  <script src="./assets/js/main.js?t=1701055761211"></script>
 </body>
 
 </html>

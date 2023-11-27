@@ -28,9 +28,9 @@ $classContact = '';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>P&L Consultoría Estratégica</title>
   <!-- css / templates -->
-  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701117286371">
+  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701119767727">
   <!-- css -->
-  <link rel="stylesheet" href="./assets/css/style.css?t=1701117286371" />
+  <link rel="stylesheet" href="./assets/css/style.css?t=1701119767727" />
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -106,7 +106,7 @@ $classContact = '';
       </div>
 
 
-      <div class="slider">
+      <div class="slider" id="companies-slider">
         <div class="title-slider">
           <h2>Compañías usuarias</h2>
         </div>
@@ -148,7 +148,27 @@ $classContact = '';
             </div>
           </div>
         </div>
+      </div>
 
+      <div class="slider" id="partners-slider">
+        <div class="title-slider">
+          <h2>Partners</h2>
+        </div>
+
+        <div class="container">
+          <div class="wrapper">
+            <div class="wrapper-holder">
+
+              <div class="slider-img" id="img-1"></div>
+              <div class="slider-img" id="img-2"></div>
+              <div class="slider-img" id="img-3"></div>
+              <div class="slider-img" id="img-4"></div>
+              <div class="slider-img" id="img-5"></div>
+              <div class="slider-img" id="img-6"></div>
+
+            </div>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -162,7 +182,7 @@ $classContact = '';
   <!-- scroll reveal / js -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <!-- js -->
-  <script src="./assets/js/main.js?t=1701117286371"></script>
+  <script src="./assets/js/main.js?t=1701119767727"></script>
 </body>
 
 </html>

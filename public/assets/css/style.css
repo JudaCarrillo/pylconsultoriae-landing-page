@@ -190,6 +190,7 @@ section {
 }
 
 .slider {
+  margin-top: 5rem;
   display: flex;
 }
 
@@ -203,7 +204,6 @@ section {
 }
 
 .container .wrapper {
-  /* width: 60vw; */
   height: 15vw;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
   margin: 0rem auto;
@@ -212,10 +212,18 @@ section {
 
 .container .wrapper-holder {
   display: grid;
-  grid-template-columns: repeat(26, 40%);
   grid-row: 1;
   height: 100%;
+}
+
+#companies-slider .container .wrapper-holder {
+  grid-template-columns: repeat(26, 40%);
   animation: slider 25s linear infinite;
+}
+
+#partners-slider .container .wrapper-holder {
+  grid-template-columns: repeat(6, 16.67%);
+  animation: partners-slider 5s linear infinite;
 }
 
 .container .slider-img {
@@ -223,6 +231,14 @@ section {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+}
+
+#companies-slider .container .slider-img {
+  /* background-size: 100%; */
+}
+
+#partners-slider .container .slider-img {
+  /* background-size: cover; */
 }
 
 .container #slider-img-1 {
@@ -329,6 +345,30 @@ section {
   background-image: url(../img/usuarias/UniversidadLCB.png);
 }
 
+/* slider - partners */
+.container #img-1 {
+  background-image: url(../img/partners/addvantit.png);
+}
+
+.container #img-2 {
+  background-image: url(../img/partners/Click.png);
+}
+
+.container #img-3 {
+  background-image: url(../img/partners/Dima.png);
+}
+
+.container #img-4 {
+  background-image: url(../img/partners/mekano.png);
+}
+
+.container #img-5 {
+  background-image: url(../img/partners/professional.png);
+}
+.container #img-6 {
+  background-image: url(../img/partners/wau.png);
+}
+
 /* KEYFRAMES */
 @keyframes slider {
   0% {
@@ -345,6 +385,28 @@ section {
 
   75% {
     transform: translateX(-950%);
+  }
+
+  100% {
+    transform: translateX(10%);
+  }
+}
+
+@keyframes partners-slider {
+  0% {
+    transform: translateX(10%);
+  }
+
+  25% {
+    transform: translateX(-50%);
+  }
+
+  50% {
+    transform: translateX(-90%);
+  }
+
+  60% {
+    transform: translateX(-70%);
   }
 
   100% {

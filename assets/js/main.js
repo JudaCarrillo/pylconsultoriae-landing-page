@@ -1,5 +1,3 @@
-import cachebust from 'gulp-cache-bust'
-
 let menuIcon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
 
@@ -37,12 +35,47 @@ window.onscroll = () => {
   navbar.classList.remove("active");
 };
 
-// cache
+let valueDisplays = document.querySelectorAll(".num");
+let interval = 2000;
 
-gulp.task('cache', () => {
-  gulp.src('./public/**/*.html')
-    .pipe(cachebust({
-      type: 'timestamp'
-    }))
-    .pipe(gulp.dest('./public'));
-})
+// Configurar opciones para Intersection Observer
+let options = {
+  root: null,
+  rootMargin: "0px",
+  threshold: 0.5, // El valor 0.5 significa que al menos el 50% del elemento debe estar visible
+};
+
+// Función de callback para Intersection Observer
+let handleIntersection = (entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      // Iniciar la animación solo cuando el elemento es visible
+      startAnimation(entry.target);
+      observer.unobserve(entry.target); // Dejar de observar después de iniciar la animación
+    }
+  });
+};
+
+// Crear una instancia de Intersection Observer con la función de callback y opciones
+let observer = new IntersectionObserver(handleIntersection, options);
+
+// Observar cada elemento con la clase "num"
+valueDisplays.forEach((valueDisplay) => {
+  observer.observe(valueDisplay);
+});
+
+// Función para iniciar la animación
+function startAnimation(valueDisplay) {
+  let startValue = 0;
+  let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+
+  let duration = Math.floor(interval / endValue);
+  let counter = setInterval(function () {
+    startValue++;
+    valueDisplay.textContent = (endValue < 10 ? "0" : "+") + startValue;
+
+    if (startValue == endValue) {
+      clearInterval(counter);
+    }
+  }, duration);
+}

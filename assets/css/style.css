@@ -1,31 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  border: none;
-  outline: none;
-  scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
-}
-
 :root {
   --bg-color: #ffffff;
   --second-bg-color: #112e42;
   --text-color: black;
   --main-color: #149ddd;
-}
-
-html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-}
-
-body {
-  background: var(--bg-color);
-  color: var(--text-color);
 }
 
 /* SECTION */
@@ -52,20 +29,7 @@ section {
   position: relative;
   width: 75%;
   text-align: justify;
-  font-size: 14px;
   margin: 2rem 0 4rem;
-}
-
-.home-separator {
-  display: flex;
-}
-
-.home-separator #separator {
-  height: 3px;
-  background-color: var(--second-bg-color);
-  margin-top: 3.5rem;
-  margin-right: 1rem;
-  width: 2.5rem;
 }
 
 /* section home - buttons */
@@ -148,7 +112,6 @@ section {
   background: transparent;
   border: 0.2rem solid var(--main-color);
   border-radius: 50%;
-  font-size: 20px;
   color: var(--main-color);
   z-index: 1;
   overflow: hidden;
@@ -172,6 +135,10 @@ section {
 
 .home-sci a:hover::before {
   width: 100%;
+}
+
+.home-sci i {
+  font-size: 2rem;
 }
 
 /* img / vector */
@@ -203,9 +170,6 @@ section {
 .box-experience {
   text-align: center;
   padding: 0.5rem;
-  /* border-top: 1px solid var(--second-bg-color); */
-  /* border-bottom: 1px solid var(--second-bg-color); */
-
   max-width: 50%;
   box-sizing: border-box;
 }
@@ -223,16 +187,12 @@ section {
 /* MEDIA / RESPONSIVE */
 @media (max-width: 1440px) {
   /* GEN / HEADER / SECTION HOME */
-  body h1 {
-    font-size: 4.5rem;
+  .home-content {
+    max-width: 50rem;
   }
 
-  body p {
-    font-size: 1.5rem;
-  }
-
-  .home-separator #separator {
-    margin-top: 3rem;
+  .home-content p {
+    width: 80%;
   }
 
   .box-experience {
@@ -244,10 +204,16 @@ section {
   }
 }
 
+@media (max-width: 1024px) {
+  .home-content p {
+    width: 90%;
+  }
+}
+
 @media (max-width: 768px) {
   /* GEN / HEADER / SECTION HOME */
-  .home-separator #separator {
-    margin-top: 2.5rem;
+  .home-content {
+    max-width: 40rem;
   }
 
   .box-experience {
@@ -257,6 +223,10 @@ section {
 
 @media (max-width: 425px) {
   /* GEN / HEADER / SECTION HOME */
+  .home-content p {
+    width: 100%;
+  }
+
   .box-experience {
     border-top: 1px solid var(--second-bg-color);
     border-bottom: 0px;
@@ -264,7 +234,7 @@ section {
   }
 
   .box-experience b {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .btn-box {
@@ -290,18 +260,6 @@ section {
 
 @media (max-width: 320px) {
   /* GEN / HEADER / SECTION HOME */
-  body h1 {
-    font-size: 3.4rem;
-  }
-
-  body p {
-    font-size: 1.2rem;
-  }
-
-  .home-separator #separator {
-    margin-top: 2rem;
-  }
-
   .btn-box {
     margin-left: -1rem;
     width: 25rem;

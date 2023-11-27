@@ -16,7 +16,7 @@ section {
   display: flex;
   align-items: center;
   padding: 0 9%;
-  background: url("../img/bg_home.webp") center center no-repeat;
+  background: url(../img/bg_home.webp) center center no-repeat;
   background-size: cover;
 }
 
@@ -180,8 +180,176 @@ section {
 }
 
 /* SECTION ABOUT US */
-.customers {
+.experience-customers {
   margin-bottom: 6rem;
+}
+
+.experience-content .img-mapa {
+  display: flex;
+  justify-content: center;
+}
+
+.slider {
+  display: flex;
+}
+
+.title-slider {
+  width: 40%;
+}
+
+.container {
+  position: relative;
+  width: 60%;
+}
+
+.container .wrapper {
+  /* width: 60vw; */
+  height: 15vw;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+  margin: 0rem auto;
+  overflow: hidden;
+}
+
+.container .wrapper-holder {
+  display: grid;
+  grid-template-columns: repeat(26, 40%);
+  grid-row: 1;
+  height: 100%;
+  animation: slider 25s linear infinite;
+}
+
+.container .slider-img {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.container #slider-img-1 {
+  background-image: url(../img/usuarias/Cajasol.png);
+}
+
+.container #slider-img-2 {
+  background-image: url(../img/usuarias/care.png);
+}
+
+.container #slider-img-3 {
+  background-image: url(../img/usuarias/Cobra.png);
+}
+
+.container #slider-img-4 {
+  background-image: url(../img/usuarias/Cotecna.png);
+}
+
+.container #slider-img-5 {
+  background-image: url(../img/usuarias/Dental.png);
+}
+
+.container #slider-img-6 {
+  background-image: url(../img/usuarias/EY.png);
+}
+
+.container #slider-img-7 {
+  background-image: url(../img/usuarias/Fini.png);
+}
+
+.container #slider-img-8 {
+  background-image: url(../img/usuarias/geodis.png);
+}
+
+.container #slider-img-9 {
+  background-image: url(../img/usuarias/GM.png);
+}
+
+.container #slider-img-10 {
+  background-image: url(../img/usuarias/GT.jpg);
+}
+
+.container #slider-img-11 {
+  background-image: url(../img/usuarias/hellmann.png);
+}
+
+.container #slider-img-12 {
+  background-image: url(../img/usuarias/Imes.png);
+}
+
+.container #slider-img-13 {
+  background-image: url(../img/usuarias/Michelin.jpg);
+}
+
+.container #slider-img-14 {
+  background-image: url(../img/usuarias/monterrey.png);
+}
+
+.container #slider-img-15 {
+  background-image: url(../img/usuarias/MQ.png);
+}
+
+.container #slider-img-16 {
+  background-image: url(../img/usuarias/OLO.png);
+}
+
+.container #slider-img-17 {
+  background-image: url(../img/usuarias/Ortiz.png);
+}
+
+.container #slider-img-18 {
+  background-image: url(../img/usuarias/popsocket.png);
+}
+
+.container #slider-img-19 {
+  background-image: url(../img/usuarias/Prodiel.png);
+}
+
+.container #slider-img-20 {
+  background-image: url(../img/usuarias/Richs.jpg);
+}
+
+.container #slider-img-21 {
+  background-image: url(../img/usuarias/salvi.png);
+}
+
+.container #slider-img-22 {
+  background-image: url(../img/usuarias/Santillana.png);
+}
+
+.container #slider-img-23 {
+  background-image: url(../img/usuarias/TecnologicoMonte.png);
+}
+
+.container #slider-img-24 {
+  background-image: url(../img/usuarias/tumi.png);
+}
+
+.container #slider-img-25 {
+  background-image: url(../img/usuarias/Unimarc.png);
+}
+
+.container #slider-img-26 {
+  background-image: url(../img/usuarias/UniversidadLCB.png);
+}
+
+/* KEYFRAMES */
+@keyframes slider {
+  0% {
+    transform: translateX(10%);
+  }
+
+  25% {
+    transform: translateX(-316%);
+  }
+
+  50% {
+    transform: translateX(-633%);
+  }
+
+  75% {
+    transform: translateX(-950%);
+  }
+
+  100% {
+    transform: translateX(10%);
+  }
 }
 
 /* MEDIA / RESPONSIVE */

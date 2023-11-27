@@ -1,4 +1,6 @@
 <?php
+// probar solo poniendo ../
+
 $rutaImg = '../../assets/img/logo.svg';
 $rutaImgFt = '../../assets/img/logo.svg';
 
@@ -10,7 +12,7 @@ $sectionContact = './contact.php';
 
 $ftAbout = './about-us.php';
 $ftServices = './services.php';
-$ftExperince = '../index.php/#customers';
+$ftExperince = '../index.php/#experience';
 $ftInit = '#about-us';
 
 $classHome = '';
@@ -28,9 +30,9 @@ $classContact = '';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>P&L Consultoría Estratégica</title>
   <!-- css -->
-  <link rel="stylesheet" href="../../assets/css/style_about.css?t=1701055761219" />
+  <link rel="stylesheet" href="../../assets/css/style_about.css?t=1701117286377" />
   <!-- css / templates -->
-  <link rel="stylesheet" href="../../assets/css/style_comp.css?t=1701055761219" />
+  <link rel="stylesheet" href="../../assets/css/style_comp.css?t=1701117286377" />
   <!-- favicon -->
   <link rel="shortcut icon" href="../../assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -121,7 +123,7 @@ $classContact = '';
   ?>
 
   <!-- js -->
-  <script src="../assets/js/main.js?t=1701055761219"></script>
+  <script src="../assets/js/main.js?t=1701117286377"></script>
 </body>
 
 </html>

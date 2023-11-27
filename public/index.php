@@ -10,7 +10,7 @@ $sectionContact = './section/contact.php';
 
 $ftAbout = './section/about-us.php';
 $ftServices = './section/services.php';
-$ftExperince = '#customers';
+$ftExperince = '#experience';
 $ftInit = '#home';
 
 $classHome = 'active';
@@ -28,9 +28,9 @@ $classContact = '';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>P&L Consultoría Estratégica</title>
   <!-- css / templates -->
-  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701055761211">
+  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701117286371">
   <!-- css -->
-  <link rel="stylesheet" href="./assets/css/style.css?t=1701055761211" />
+  <link rel="stylesheet" href="./assets/css/style.css?t=1701117286371" />
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -95,11 +95,62 @@ $classContact = '';
     </div>
   </div>
 
-  <span id="customers"></span>
+  <span id="experience"></span>
   <!-- section customer structure -->
-  <section class="customers" id="home">
-    <div class="customers-content">
+  <section class="experience-customers" id="home">
+    <div class="experience-content">
       <h1>Nuestra Experiencia</h1>
+
+      <div class="img-mapa">
+        <img src="./assets/img/mapa.png" alt="Mapa de nuestra experiencia">
+      </div>
+
+
+      <div class="slider">
+        <div class="title-slider">
+          <h2>Compañías usuarias</h2>
+        </div>
+
+        <div class="container">
+          <div class="wrapper">
+            <div class="wrapper-holder">
+              <div class="slider-img" id="slider-img-1"></div>
+              <div class="slider-img" id="slider-img-2"></div>
+              <div class="slider-img" id="slider-img-3"></div>
+              <div class="slider-img" id="slider-img-4"></div>
+
+              <div class="slider-img" id="slider-img-5"></div>
+              <div class="slider-img" id="slider-img-6"></div>
+              <div class="slider-img" id="slider-img-7"></div>
+              <div class="slider-img" id="slider-img-8"></div>
+
+              <div class="slider-img" id="slider-img-9"></div>
+              <div class="slider-img" id="slider-img-10"></div>
+              <div class="slider-img" id="slider-img-11"></div>
+              <div class="slider-img" id="slider-img-12"></div>
+
+              <div class="slider-img" id="slider-img-13"></div>
+              <div class="slider-img" id="slider-img-14"></div>
+              <div class="slider-img" id="slider-img-15"></div>
+              <div class="slider-img" id="slider-img-16"></div>
+
+              <div class="slider-img" id="slider-img-17"></div>
+              <div class="slider-img" id="slider-img-18"></div>
+              <div class="slider-img" id="slider-img-19"></div>
+              <div class="slider-img" id="slider-img-20"></div>
+
+              <div class="slider-img" id="slider-img-21"></div>
+              <div class="slider-img" id="slider-img-22"></div>
+              <div class="slider-img" id="slider-img-23"></div>
+              <div class="slider-img" id="slider-img-24"></div>
+              <div class="slider-img" id="slider-img-25"></div>
+              <div class="slider-img" id="slider-img-26"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
   </section>
 
@@ -111,7 +162,7 @@ $classContact = '';
   <!-- scroll reveal / js -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <!-- js -->
-  <script src="./assets/js/main.js?t=1701055761211"></script>
+  <script src="./assets/js/main.js?t=1701117286371"></script>
 </body>
 
 </html>

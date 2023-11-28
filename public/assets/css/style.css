@@ -181,7 +181,7 @@ section {
 
 /* SECTION ABOUT US */
 .experience-customers {
-  margin-bottom: 6rem;
+  /* margin-bottom: 6rem; */
 }
 
 .experience-content .img-mapa {
@@ -236,13 +236,16 @@ section {
   margin: 0 10px;
 }
 
+#companies-slider .container #slider-img-8,
+#companies-slider .container #slider-img-10 {
+  background-size: 50%;
+  margin: 0 -150px;
+}
 #companies-slider .container #slider-img-6,
 #companies-slider .container #slider-img-7,
-#companies-slider .container #slider-img-8,
-#companies-slider .container #slider-img-9,
-#companies-slider .container #slider-img-10 {
-  background-size: 55%;
-  margin: 0 -60px;
+#companies-slider .container #slider-img-9 {
+  background-size: 35%;
+  margin: 0 -150px;
 }
 
 .container #slider-img-1 {
@@ -383,14 +386,6 @@ section {
     transform: translateX(-237.5%);
   }
 
-  /* 50% {
-    transform: translateX(-475%);
-  }
-
-  75% {
-    transform: translateX(-712.5%);
-  } */
-
   95% {
     transform: translateX(-950%);
   }
@@ -408,10 +403,6 @@ section {
   28% {
     transform: translateX(-50%);
   }
-
-  /* 56% {
-    transform: translateX(-100%);
-  } */
 
   85% {
     transform: translateX(-150%);
@@ -442,6 +433,30 @@ section {
   }
 }
 
+@media (max-width: 1110px) {
+  .experience {
+    width: 100%;
+  }
+
+  .img-mapa img {
+    margin-top: 5rem;
+    width: 90%;
+    height: auto;
+  }
+
+  #companies-slider .container #slider-img-8,
+  #companies-slider .container #slider-img-10 {
+    background-size: 50%;
+    margin: 0 -80px;
+  }
+  #companies-slider .container #slider-img-6,
+  #companies-slider .container #slider-img-7,
+  #companies-slider .container #slider-img-9 {
+    background-size: 35%;
+    margin: 0 -80px;
+  }
+}
+
 @media (max-width: 1024px) {
   .home-content p {
     width: 90%;
@@ -450,12 +465,49 @@ section {
 
 @media (max-width: 768px) {
   /* GEN / HEADER / SECTION HOME */
+  .slider {
+    margin-top: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container .wrapper {
+    height: 15vw;
+    margin: 2rem auto;
+  }
+
+  .title-slider,
+  .container {
+    width: 100%;
+  }
+
+  .title-slider {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
   .home-content {
     max-width: 40rem;
   }
 
   .box-experience {
     margin: 0.5rem;
+  }
+}
+
+@media (max-width: 555px) {
+  #companies-slider .container #slider-img-8,
+  #companies-slider .container #slider-img-10 {
+    background-size: 40%;
+    margin: 0 -60px;
+  }
+  #companies-slider .container #slider-img-6,
+  #companies-slider .container #slider-img-7,
+  #companies-slider .container #slider-img-9 {
+    background-size: 30%;
+    margin: 0 -80px;
   }
 }
 
@@ -466,8 +518,6 @@ section {
   }
 
   .box-experience {
-    border-top: 1px solid var(--second-bg-color);
-    border-bottom: 0px;
     font-size: 1.4rem;
   }
 

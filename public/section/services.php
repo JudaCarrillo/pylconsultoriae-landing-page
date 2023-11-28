@@ -28,9 +28,9 @@ $classContact = '';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>P&L Consultoría Estratégica</title>
   <!-- css / templates -->
-  <link rel="stylesheet" href="../../assets/css/style_comp.css?t=1701179004392" />
+  <link rel="stylesheet" href="../../assets/css/style_comp.css?t=1701179769634" />
   <!-- css -->
-  <link rel="stylesheet" href="../../assets/css/style_services.css?t=1701179004392" />
+  <link rel="stylesheet" href="../../assets/css/style_services.css?t=1701179769634" />
   <!-- favicon -->
   <link rel="shortcut icon" href="../../assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -148,7 +148,7 @@ $classContact = '';
   ?>
 
   <!-- js -->
-  <script src="../assets/js/main.js?t=1701179004392"></script>
+  <script src="../assets/js/main.js?t=1701179769634"></script>
 </body>
 
 </html>

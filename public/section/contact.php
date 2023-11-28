@@ -28,9 +28,9 @@ $classContact = 'active';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>P&L Consultoría Estratégica</title>
   <!-- css -->
-  <link rel="stylesheet" href="../../assets/css/style_contact.css?t=1701119767741" />
+  <link rel="stylesheet" href="../../assets/css/style_contact.css?t=1701179004390" />
   <!-- css / templates -->
-  <link rel="stylesheet" href="../../assets/css/style_comp.css?t=1701119767741" />
+  <link rel="stylesheet" href="../../assets/css/style_comp.css?t=1701179004390" />
   <!-- favicon -->
   <link rel="shortcut icon" href="../../assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -127,9 +127,9 @@ $classContact = 'active';
   <!-- js / jquery -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <!-- js / form  -->
-  <script src="../assets/js/form.js?t=1701119767741"></script>
+  <script src="../assets/js/form.js?t=1701179004390"></script>
   <!-- js / navbar -->
-  <script src="../assets/js/main.js?t=1701119767741"></script>
+  <script src="../assets/js/main.js?t=1701179004390"></script>
 </body>
 
 </html>

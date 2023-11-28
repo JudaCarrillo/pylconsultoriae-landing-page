@@ -6,10 +6,10 @@
 }
 
 /* SECTION */
-section {
+/* section {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
-}
+} */
 
 /* SECTION HOME */
 .home {
@@ -196,6 +196,8 @@ section {
 
 .title-slider {
   width: 40%;
+  display: flex;
+  align-items: center;
 }
 
 .container {
@@ -204,8 +206,8 @@ section {
 }
 
 .container .wrapper {
-  height: 15vw;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+  /* height: 15vw; */
+  /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); */
   margin: 0rem auto;
   overflow: hidden;
 }
@@ -218,12 +220,12 @@ section {
 
 #companies-slider .container .wrapper-holder {
   grid-template-columns: repeat(26, 40%);
-  animation: slider 25s linear infinite;
+  animation: slider 45s linear infinite;
 }
 
 #partners-slider .container .wrapper-holder {
-  grid-template-columns: repeat(6, 16.67%);
-  animation: partners-slider 5s linear infinite;
+  grid-template-columns: repeat(6, 50%);
+  animation: partners-slider 11s linear infinite;
 }
 
 .container .slider-img {
@@ -231,14 +233,16 @@ section {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+  margin: 0 10px;
 }
 
-#companies-slider .container .slider-img {
-  /* background-size: 100%; */
-}
-
-#partners-slider .container .slider-img {
-  /* background-size: cover; */
+#companies-slider .container #slider-img-6,
+#companies-slider .container #slider-img-7,
+#companies-slider .container #slider-img-8,
+#companies-slider .container #slider-img-9,
+#companies-slider .container #slider-img-10 {
+  background-size: 55%;
+  margin: 0 -60px;
 }
 
 .container #slider-img-1 {
@@ -278,7 +282,7 @@ section {
 }
 
 .container #slider-img-10 {
-  background-image: url(../img/usuarias/GT.jpg);
+  background-image: url(../img/usuarias/GT.png);
 }
 
 .container #slider-img-11 {
@@ -290,7 +294,7 @@ section {
 }
 
 .container #slider-img-13 {
-  background-image: url(../img/usuarias/Michelin.jpg);
+  background-image: url(../img/usuarias/Michelin.png);
 }
 
 .container #slider-img-14 {
@@ -318,7 +322,7 @@ section {
 }
 
 .container #slider-img-20 {
-  background-image: url(../img/usuarias/Richs.jpg);
+  background-image: url(../img/usuarias/Richs.png);
 }
 
 .container #slider-img-21 {
@@ -376,14 +380,18 @@ section {
   }
 
   25% {
-    transform: translateX(-316%);
+    transform: translateX(-237.5%);
   }
 
   50% {
-    transform: translateX(-633%);
+    transform: translateX(-475%);
   }
 
   75% {
+    transform: translateX(-712.5%);
+  }
+
+  95% {
     transform: translateX(-950%);
   }
 
@@ -397,16 +405,20 @@ section {
     transform: translateX(10%);
   }
 
-  25% {
-    transform: translateX(-50%);
+  21% {
+    transform: translateX(-52%);
   }
 
-  50% {
-    transform: translateX(-90%);
+  42% {
+    transform: translateX(-104%);
   }
 
-  60% {
-    transform: translateX(-70%);
+  63% {
+    transform: translateX(-156%);
+  }
+
+  85% {
+    transform: translateX(-210%);
   }
 
   100% {

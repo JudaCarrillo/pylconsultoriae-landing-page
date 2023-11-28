@@ -1,6 +1,6 @@
 <?php
-$rutaImg = '../../assets/img/logo.svg';
-$rutaImgFt = '../../assets/img/logo.svg';
+$rutaImg = '../assets/img/logo.svg';
+$rutaImgFt = '../assets/img/logo.svg';
 
 $sectionHome = '../index.php';
 $sectionAboutUs = './about-us.php';
@@ -10,7 +10,7 @@ $sectionContact = '#contact';
 
 $ftAbout = './about-us.php';
 $ftServices = './services.php';
-$ftExperince = '../index.php/#experience';
+$ftExperience = '../index.php#experience';
 $ftInit = '#contact';
 
 $classHome = '';
@@ -28,11 +28,11 @@ $classContact = 'active';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>P&L Consultoría Estratégica</title>
   <!-- css -->
-  <link rel="stylesheet" href="../../assets/css/style_contact.css?t=1701183346427" />
+  <link rel="stylesheet" href="../assets/css/style_contact.css?t=1701189160737" />
   <!-- css / templates -->
-  <link rel="stylesheet" href="../../assets/css/style_comp.css?t=1701183346427" />
+  <link rel="stylesheet" href="../assets/css/style_comp.css?t=1701189160737" />
   <!-- favicon -->
-  <link rel="shortcut icon" href="../../assets/img/logo.svg" type="image/x-icon" />
+  <link rel="shortcut icon" href="../assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 </head>
@@ -127,9 +127,9 @@ $classContact = 'active';
   <!-- js / jquery -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <!-- js / form  -->
-  <script src="../assets/js/form.js?t=1701183346427"></script>
+  <script src="../assets/js/form.js?t=1701189160737"></script>
   <!-- js / navbar -->
-  <script src="../assets/js/main.js?t=1701183346427"></script>
+  <script src="../assets/js/main.js?t=1701189160737"></script>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
 <?php
-$rutaImg = '../../assets/img/logo.svg';
-$rutaImgFt = '../../assets/img/logo.svg';
+$rutaImg = '../assets/img/logo.svg';
+$rutaImgFt = '../assets/img/logo.svg';
 
 $sectionHome = '../index.php';
 $sectionAboutUs = './about-us.php';
@@ -10,7 +10,7 @@ $sectionContact = './contact.php';
 
 $ftAbout = './about-us.php';
 $ftServices = './services.php';
-$ftExperince = '../index.php/#experience';
+$ftExperience = '../index.php#experience';
 $ftInit = '#blog';
 
 $classHome = '';
@@ -28,11 +28,11 @@ $classContact = '';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>P&L Consultoría Estratégica</title>
   <!-- css -->
-  <link rel="stylesheet" href="../../assets/css/style_blog.css?t=1701183346424" />
+  <link rel="stylesheet" href="../assets/css/style_blog.css?t=1701189160735" />
   <!-- css / templates -->
-  <link rel="stylesheet" href="../../assets/css/style_comp.css?t=1701183346424" />
+  <link rel="stylesheet" href="../assets/css/style_comp.css?t=1701189160735" />
   <!-- favicon -->
-  <link rel="shortcut icon" href="../../assets/img/logo.svg" type="image/x-icon" />
+  <link rel="shortcut icon" href="../assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 </head>
@@ -79,7 +79,7 @@ $classContact = '';
       <div class="box-content">
         <div class="row1">
           <div class="box">
-            <img src="../../assets/img/bc-directions.png" alt="" />
+            <img src="../assets/img/bc-directions.png" alt="" />
 
             <div class="box-inf">
               <p class="date">29 de Octubre, 2021</p>
@@ -98,7 +98,7 @@ $classContact = '';
           </div>
 
           <div class="box">
-            <img src="../../assets/img/bc-wave.png" alt="" />
+            <img src="../assets/img/bc-wave.png" alt="" />
 
             <div class="box-inf">
               <p class="date">9 de Octubre, 2021</p>
@@ -122,7 +122,7 @@ $classContact = '';
 
         <div class="row2">
           <div class="box">
-            <img src="../../assets/img/bc-outlook.png" alt="" />
+            <img src="../assets/img/bc-outlook.png" alt="" />
 
             <div class="box-inf">
               <p class="date">6 de Mayo, 2020</p>
@@ -144,7 +144,7 @@ $classContact = '';
           </div>
 
           <div class="box">
-            <img src="../../assets/img/bc-wave.png" alt="" />
+            <img src="../assets/img/bc-wave.png" alt="" />
 
             <div class="box-inf">
               <p class="date">1 de Mayo, 2020</p>
@@ -179,7 +179,7 @@ $classContact = '';
   ?>
 
   <!-- js -->
-  <script src="../assets/js/main.js?t=1701183346424"></script>
+  <script src="../assets/js/main.js?t=1701189160735"></script>
 </body>
 
 </html>

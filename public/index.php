@@ -10,7 +10,7 @@ $sectionContact = './section/contact.php';
 
 $ftAbout = './section/about-us.php';
 $ftServices = './section/services.php';
-$ftExperince = '#experience';
+$ftExperience = '#experience';
 $ftInit = '#home';
 
 $classHome = 'active';
@@ -28,9 +28,9 @@ $classContact = '';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>P&L Consultoría Estratégica</title>
   <!-- css / templates -->
-  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701183346415">
+  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701189160726">
   <!-- css -->
-  <link rel="stylesheet" href="./assets/css/style.css?t=1701183346415" />
+  <link rel="stylesheet" href="./assets/css/style.css?t=1701189160726" />
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -107,10 +107,6 @@ $classContact = '';
 
 
       <div class="slider" id="companies-slider">
-        <div class="title-slider">
-          <h2>Compañías usuarias</h2>
-        </div>
-
         <div class="container">
           <div class="wrapper">
             <div class="wrapper-holder">
@@ -151,10 +147,6 @@ $classContact = '';
       </div>
 
       <div class="slider" id="partners-slider">
-        <div class="title-slider">
-          <h2>Partners</h2>
-        </div>
-
         <div class="container">
           <div class="wrapper">
             <div class="wrapper-holder">
@@ -182,7 +174,7 @@ $classContact = '';
   <!-- scroll reveal / js -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <!-- js -->
-  <script src="./assets/js/main.js?t=1701183346415"></script>
+  <script src="./assets/js/main.js?t=1701189160726"></script>
 </body>
 
 </html>

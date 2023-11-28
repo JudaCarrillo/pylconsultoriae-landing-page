@@ -1,8 +1,8 @@
 <?php
 // probar solo poniendo ../
 
-$rutaImg = '../../assets/img/logo.svg';
-$rutaImgFt = '../../assets/img/logo.svg';
+$rutaImg = '../assets/img/logo.svg';
+$rutaImgFt = '../assets/img/logo.svg';
 
 $sectionHome = '../index.php';
 $sectionAboutUs = '#about-us';
@@ -12,7 +12,7 @@ $sectionContact = './contact.php';
 
 $ftAbout = './about-us.php';
 $ftServices = './services.php';
-$ftExperince = '../index.php/#experience';
+$ftExperience = '../index.php#experience';
 $ftInit = '#about-us';
 
 $classHome = '';
@@ -30,11 +30,11 @@ $classContact = '';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>P&L Consultoría Estratégica</title>
   <!-- css -->
-  <link rel="stylesheet" href="../../assets/css/style_about.css?t=1701183346420" />
+  <link rel="stylesheet" href="../assets/css/style_about.css?t=1701189160731" />
   <!-- css / templates -->
-  <link rel="stylesheet" href="../../assets/css/style_comp.css?t=1701183346420" />
+  <link rel="stylesheet" href="../assets/css/style_comp.css?t=1701189160731" />
   <!-- favicon -->
-  <link rel="shortcut icon" href="../../assets/img/logo.svg" type="image/x-icon" />
+  <link rel="shortcut icon" href="../assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 </head>
@@ -50,8 +50,8 @@ $classContact = '';
     <div class="about-content">
       <div class="header-content">
         <div class="img">
-          <img class="img01" src="../../assets/img/img01.png" alt="" />
-          <img class="img02" src="../../assets/img/img02.png" alt="" />
+          <img class="img01" src="../assets/img/img01.png" alt="" />
+          <img class="img02" src="../assets/img/img02.png" alt="" />
         </div>
 
         <div class="text">
@@ -86,11 +86,11 @@ $classContact = '';
           </p>
         </div>
 
-        <img id="img03" src="../../assets/img/img03.png" alt="" />
+        <img id="img03" src="../assets/img/img03.png" alt="" />
       </div>
 
       <div class="images">
-        <img class="vector2" src="../../assets/img/img05.png" alt="" />
+        <img class="vector2" src="../assets/img/img05.png" alt="" />
       </div>
 
       <div class="comment-inf">
@@ -123,7 +123,7 @@ $classContact = '';
   ?>
 
   <!-- js -->
-  <script src="../assets/js/main.js?t=1701183346420"></script>
+  <script src="../assets/js/main.js?t=1701189160731"></script>
 </body>
 
 </html>

@@ -179,25 +179,26 @@ section {
   color: var(--main-color);
 }
 
-/* SECTION ABOUT US */
+/* SECTION EXPERIENCE - CUSTOMERS */
 .experience-customers {
-  /* margin-bottom: 6rem; */
+  height: 90%;
 }
 
-.experience-content .img-mapa {
+.img-mapa {
+  /* background: #000; */
+  margin: 4rem 0;
   display: flex;
   justify-content: center;
 }
 
-.slider {
-  margin-top: 5rem;
-  display: flex;
+.img-mapa img {
+  width: 80%;
+  height: auto;
 }
 
-.title-slider {
-  width: 40%;
+.slider {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -205,10 +206,16 @@ section {
   width: 60%;
 }
 
+/* #companies-slider .container {
+  background: skyblue;
+}
+
+#partners-slider .container {
+  background: yellow;
+} */
+
 .container .wrapper {
-  height: 10vw;
-  /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6); */
-  margin: 0rem auto;
+  height: 15vw;
   overflow: hidden;
 }
 
@@ -439,9 +446,9 @@ section {
   }
 
   .img-mapa img {
-    margin-top: 5rem;
-    width: 90%;
-    height: auto;
+    /* margin-top: 5rem; */
+    /* width: 90%;
+    height: auto; */
   }
 
   #companies-slider .container #slider-img-8,
@@ -472,20 +479,8 @@ section {
     align-items: center;
   }
 
-  .container .wrapper {
-    height: 15vw;
-    margin: 2rem auto;
-  }
-
-  .title-slider,
   .container {
     width: 100%;
-  }
-
-  .title-slider {
-    display: flex;
-    justify-content: center;
-    text-align: center;
   }
 
   .home-content {
@@ -519,10 +514,6 @@ section {
 
   .box-experience {
     font-size: 1.4rem;
-  }
-
-  .box-experience b {
-    font-size: 4rem;
   }
 
   .btn-box {

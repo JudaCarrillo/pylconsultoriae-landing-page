@@ -206,14 +206,6 @@ section {
   width: 60%;
 }
 
-/* #companies-slider .container {
-  background: skyblue;
-}
-
-#partners-slider .container {
-  background: yellow;
-} */
-
 .container .wrapper {
   height: 15vw;
   overflow: hidden;
@@ -443,12 +435,6 @@ section {
 @media (max-width: 1110px) {
   .experience {
     width: 100%;
-  }
-
-  .img-mapa img {
-    /* margin-top: 5rem; */
-    /* width: 90%;
-    height: auto; */
   }
 
   #companies-slider .container #slider-img-8,

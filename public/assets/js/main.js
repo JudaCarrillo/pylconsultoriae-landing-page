@@ -79,3 +79,42 @@ function startAnimation(valueDisplay) {
     }
   }, duration);
 }
+
+// Función para Slider
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Método para avanzar automáticamente el slider cada 5 segundos
+function plusSlidesAuto() {
+ showSlides(slideIndex += 1);
+}
+
+// Método para controlar el movimiento del slider
+function plusSlides(n) {
+ showSlides(slideIndex += n);
+}
+
+// Método para cambiar el slide actual
+function currentSlide(n) {
+ showSlides(slideIndex = n);
+}
+
+// Método para mostrar los slides
+function showSlides(n) {
+ var i;
+ var slides = document.getElementsByClassName("mySlides");
+ var dots = document.getElementsByClassName("dot");
+ if (n > slides.length) {slideIndex = 1}
+ if (n < 1) {slideIndex = slides.length}
+ for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+ }
+ for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+ }
+ slides[slideIndex-1].style.display = "block";  
+ dots[slideIndex-1].className += " active";
+}
+
+// Ejecutar la función para avanzar automáticamente el slider cada 5 segundos
+setInterval(plusSlidesAuto, 5000);

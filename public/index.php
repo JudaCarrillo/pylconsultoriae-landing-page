@@ -45,8 +45,25 @@ $classContact = '';
 
 
   <!-- home section structure-->
+
+
   <section class="home" id="home">
-    <div class="home-content">
+    <div class="slider">
+      <div class="mySlides">
+        <img src="assets/img/Slider1.jpg" class="slide">
+      </div>
+      <div class="mySlides">
+        <img src="assets/img/Slider2.jpg" class="slide">
+      </div>
+      <div class="mySlides">
+        <img src="assets/img/Slider3.jpg" class="slide">
+      </div>
+      <p class="index"></p>
+    </div>
+    <button class="slideBtn" onclick="plusSlides(-1)">&#10094;</button>
+    <button class="slideBtn" onclick="plusSlides(1)">&#10095;</button>
+    <script src="script.js"></script>
+    <!-- <div class="home-content">
       <h1>P&L Consultoría Estratégica</h1>
       <p>
         Consultora en creciente expansión, con una sólida trayectoria en la
@@ -70,7 +87,7 @@ $classContact = '';
       <div class="home-sci">
         <a href="https://www.linkedin.com/company/pyl-consultor%C3%ADa/" target="_blank" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
       </div>
-    </div>
+    </div> -->
   </section>
 
   <img class="vector" src="./assets/img/vector2.svg" alt="" />

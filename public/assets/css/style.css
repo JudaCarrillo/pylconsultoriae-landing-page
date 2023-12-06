@@ -193,7 +193,7 @@ section {
 }
 
 .img-mapa img {
-  width: 60%;
+  width: 70%;
   height: auto;
 }
 
@@ -460,13 +460,11 @@ section {
 @media (max-width: 1110px) {
   #companies-slider .container #slider-img-8,
   #companies-slider .container #slider-img-10 {
-    /* background-size: 50%; */
     margin: 0 -80px;
   }
   #companies-slider .container #slider-img-6,
   #companies-slider .container #slider-img-7,
   #companies-slider .container #slider-img-9 {
-    /* background-size: 35%; */
     margin: 0 -80px;
   }
 }

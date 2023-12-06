@@ -12,7 +12,7 @@
              </div>
 
              <div class="box">
-                 <h4>Nosotros</h4>
+                 <h4> <a class="titleSection" href="<?php echo $rutaNosotros ?>">Nosotros</a></h4>
                  <div class="text">
                      <a href="<?php echo $ftAbout ?>" title="Section about-us">Sobre nosotros</a>
                      <a href="<?php echo $ftServices ?>" title="Section services">Servicios</a>
@@ -23,7 +23,7 @@
 
          <div class="row2">
              <div class="box contact-us">
-                 <h4>Contáctanos</h4>
+                 <h4> <a class="titleSection" href="<?php echo $rutaContacto ?>">Contáctanos</a></h4>
                  <p class="text2">
                      comercial@pylconsultoriae.com
                      <br />

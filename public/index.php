@@ -1,6 +1,7 @@
 <?php
 $rutaImg = './assets/img/logo.svg';
 $rutaImgFt = './assets/img/logo.svg';
+$rutaLogo = '#carouselExampleAutoplaying';
 
 $sectionHome = '#home';
 $sectionAboutUs = './section/about-us.php';
@@ -12,6 +13,8 @@ $ftAbout = './section/about-us.php';
 $ftServices = './section/services.php';
 $ftExperience = '#experience';
 $ftInit = '#home';
+$rutaNosotros = './section/about-us.php';
+$rutaContacto = './section/contact.php';
 
 $classHome = 'active';
 $classAbout = '';
@@ -27,10 +30,14 @@ $classContact = '';
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>P&L Consultoría Estratégica</title>
+  <!-- Bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <!-- css / templates -->
-  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701189160726">
+  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701886529530">
   <!-- css -->
-  <link rel="stylesheet" href="./assets/css/style.css?t=1701189160726" />
+  <link rel="stylesheet" href="./assets/css/style.css?t=1701886529530" />
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -43,11 +50,34 @@ $classContact = '';
   require_once('../src/components/header.php');
   ?>
 
+  <!-- carousel structure -->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/Slider1.jpeg" class="d-block img-slider" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/Slider2.jpeg" class="d-block img-slider" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/Slider3.jpeg" class="d-block img-slider" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-  <!-- home section structure-->
 
 
-  <section class="home" id="home">
+
+
+  <!-- <section class="home" id="home">
     <div class="slider">
       <div class="mySlides">
         <img src="assets/img/Slider1.jpg" class="slide">
@@ -63,7 +93,9 @@ $classContact = '';
     <button class="slideBtn" onclick="plusSlides(-1)">&#10094;</button>
     <button class="slideBtn" onclick="plusSlides(1)">&#10095;</button>
     <script src="script.js"></script>
-    <!-- <div class="home-content">
+  </section> -->
+
+  <!-- <div class="home-content">
       <h1>P&L Consultoría Estratégica</h1>
       <p>
         Consultora en creciente expansión, con una sólida trayectoria en la
@@ -88,9 +120,7 @@ $classContact = '';
         <a href="https://www.linkedin.com/company/pyl-consultor%C3%ADa/" target="_blank" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div> -->
-  </section>
 
-  <img class="vector" src="./assets/img/vector2.svg" alt="" />
 
   <div class="prueba">
     <div class="experience">
@@ -191,7 +221,7 @@ $classContact = '';
   <!-- scroll reveal / js -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <!-- js -->
-  <script src="./assets/js/main.js?t=1701189160726"></script>
+  <script src="./assets/js/main.js?t=1701886529530"></script>
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 <?php
 $rutaImg = '../assets/img/logo.svg';
 $rutaImgFt = '../assets/img/logo.svg';
+$rutaLogo = '../index.php#carouselExampleAutoplaying';
 
 $sectionHome = '../index.php';
 $sectionAboutUs = './about-us.php';
@@ -12,6 +13,8 @@ $ftAbout = './about-us.php';
 $ftServices = './services.php';
 $ftExperience = '../index.php#experience';
 $ftInit = '#blog';
+$rutaNosotros = './about-us.php';
+$rutaContacto = './contact.php';
 
 $classHome = '';
 $classAbout = '';
@@ -28,9 +31,9 @@ $classContact = '';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>P&L Consultoría Estratégica</title>
   <!-- css -->
-  <link rel="stylesheet" href="../assets/css/style_blog.css?t=1701189160735" />
+  <link rel="stylesheet" href="../assets/css/style_blog.css?t=1701886529540" />
   <!-- css / templates -->
-  <link rel="stylesheet" href="../assets/css/style_comp.css?t=1701189160735" />
+  <link rel="stylesheet" href="../assets/css/style_comp.css?t=1701886529540" />
   <!-- favicon -->
   <link rel="shortcut icon" href="../assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -179,7 +182,7 @@ $classContact = '';
   ?>
 
   <!-- js -->
-  <script src="../assets/js/main.js?t=1701189160735"></script>
+  <script src="../assets/js/main.js?t=1701886529540"></script>
 </body>
 
 </html>

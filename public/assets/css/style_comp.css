@@ -57,11 +57,11 @@ span {
 }
 
 .header {
+  background: var(--bg-color);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--main-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,8 +70,16 @@ span {
   border-bottom: 1px solid var(--bg-color);
 }
 
+.header {
+  color: var(--text-color);
+}
+
 .header.sticky {
   background: var(--main-color);
+}
+
+.header.navbar.active {
+  color: var(--main-color);
 }
 
 /* logo de la empresa y texto */
@@ -111,12 +119,6 @@ span {
   display: none;
 }
 
-/* SECTION */
-/* section {
-  min-height: 100vh;
-  padding: 10rem 9% 2rem;
-} */
-
 /* FOOTER */
 .footer {
   position: relative;
@@ -136,19 +138,21 @@ span {
   width: 100%;
 }
 
-.footer h4 {
-  font-size: 2.2rem;
-  font-weight: 600;
-}
-
 .footer .group1 img {
   width: 8rem;
 }
 
 .footer p,
 a {
+  text-decoration: none;
   font-size: 1.6rem;
   color: #515151;
+}
+
+.footer .titleSection {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--text-color);
 }
 
 .footer .group1 {

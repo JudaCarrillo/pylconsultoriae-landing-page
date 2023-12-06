@@ -7,17 +7,27 @@
 
 /* SECTION */
 section {
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  /* min-height: auto; */
   padding: 10rem 9% 2rem;
 }
 
 /* SECTION HOME */
+.carousel {
+  margin-top: 6rem;
+  position: relative;
+  z-index: 1;
+}
+
+.img-slider {
+  width: 100%;
+  height: 750px;
+}
+
 .home {
   display: flex;
   align-items: center;
   padding: 0 9%;
-  /* background: url(../img/bg_home.webp) center center no-repeat;
-  background-size: cover; */
 }
 
 .home-content {
@@ -141,13 +151,6 @@ section {
   font-size: 2rem;
 }
 
-/* img / vector */
-.vector {
-  margin-top: -45rem;
-  z-index: 1;
-  margin-bottom: -15rem;
-}
-
 /* box of experience */
 .prueba {
   display: flex;
@@ -157,7 +160,6 @@ section {
 
 .experience {
   width: 50%;
-  margin-top: -2.5rem;
   z-index: 99;
   display: flex;
   justify-content: space-around;
@@ -185,18 +187,17 @@ section {
 }
 
 .img-mapa {
-  /* background: #000; */
   margin: 4rem 0;
   display: flex;
   justify-content: center;
 }
 
 .img-mapa img {
-  width: 80%;
+  width: 60%;
   height: auto;
 }
 
-.slider {
+.experience-customers .slider {
   display: flex;
   justify-content: center;
 }

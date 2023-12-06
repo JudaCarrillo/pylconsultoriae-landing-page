@@ -204,7 +204,7 @@ section {
 
 .container {
   position: relative;
-  width: 60%;
+  width: 70%;
 }
 
 .container .wrapper {
@@ -219,13 +219,13 @@ section {
 }
 
 #companies-slider .container .wrapper-holder {
-  grid-template-columns: repeat(26, 40%);
+  grid-template-columns: repeat(26, 25%);
   animation: slider 45s linear infinite;
 }
 
 #partners-slider .container .wrapper-holder {
-  grid-template-columns: repeat(6, 40%);
-  animation: partners-slider 9s linear infinite;
+  grid-template-columns: repeat(6, 25%);
+  animation: partners-slider 6s linear infinite;
 }
 
 .container .slider-img {
@@ -238,13 +238,13 @@ section {
 
 #companies-slider .container #slider-img-8,
 #companies-slider .container #slider-img-10 {
-  background-size: 50%;
+  background-size: 30%;
   margin: 0 -150px;
 }
 #companies-slider .container #slider-img-6,
 #companies-slider .container #slider-img-7,
 #companies-slider .container #slider-img-9 {
-  background-size: 35%;
+  background-size: 20%;
   margin: 0 -150px;
 }
 
@@ -382,12 +382,20 @@ section {
     transform: translateX(10%);
   }
 
-  25% {
-    transform: translateX(-237.5%);
+  20% {
+    transform: translateX(-150%);
   }
 
-  95% {
-    transform: translateX(-950%);
+  40% {
+    transform: translateX(-350%);
+  }
+
+  60% {
+    transform: translateX(-560%);
+  }
+
+  80% {
+    transform: translateX(-350%);
   }
 
   100% {
@@ -397,19 +405,35 @@ section {
 
 @keyframes partners-slider {
   0% {
-    transform: translateX(10%);
+    transform: translateX(5%);
   }
 
-  28% {
-    transform: translateX(-50%);
+  15% {
+    transform: translateX(-10%);
   }
 
-  85% {
-    transform: translateX(-150%);
+  30% {
+    transform: translateX(-30%);
+  }
+
+  45% {
+    transform: translateX(-55%);
+  }
+
+  60% {
+    transform: translateX(-35%);
+  }
+
+  75% {
+    transform: translateX(-20%);
+  }
+
+  90% {
+    transform: translateX(-5%);
   }
 
   100% {
-    transform: translateX(10%);
+    transform: translateX(5%);
   }
 }
 
@@ -434,19 +458,15 @@ section {
 }
 
 @media (max-width: 1110px) {
-  .experience {
-    width: 100%;
-  }
-
   #companies-slider .container #slider-img-8,
   #companies-slider .container #slider-img-10 {
-    background-size: 50%;
+    /* background-size: 50%; */
     margin: 0 -80px;
   }
   #companies-slider .container #slider-img-6,
   #companies-slider .container #slider-img-7,
   #companies-slider .container #slider-img-9 {
-    background-size: 35%;
+    /* background-size: 35%; */
     margin: 0 -80px;
   }
 }
@@ -459,7 +479,11 @@ section {
 
 @media (max-width: 768px) {
   /* GEN / HEADER / SECTION HOME */
-  .slider {
+  .experience {
+    width: 100%;
+  }
+
+  .experience-customers .slider {
     margin-top: 3rem;
     flex-direction: column;
     justify-content: center;
@@ -476,20 +500,6 @@ section {
 
   .box-experience {
     margin: 0.5rem;
-  }
-}
-
-@media (max-width: 555px) {
-  #companies-slider .container #slider-img-8,
-  #companies-slider .container #slider-img-10 {
-    background-size: 40%;
-    margin: 0 -60px;
-  }
-  #companies-slider .container #slider-img-6,
-  #companies-slider .container #slider-img-7,
-  #companies-slider .container #slider-img-9 {
-    background-size: 30%;
-    margin: 0 -80px;
   }
 }
 

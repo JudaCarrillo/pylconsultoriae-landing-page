@@ -488,6 +488,10 @@ a {
     margin-left: -7rem;
     width: 25%;
   }
+
+  .footer .group2 p {
+    margin-top: 1.5rem;
+  }
 }
 
 @media (max-width: 425px) {

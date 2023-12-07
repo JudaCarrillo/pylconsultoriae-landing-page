@@ -16,7 +16,7 @@ function updateLogo() {
     const isSticky = header.classList.contains("sticky");
 
     if (isSticky) {
-      imgLogo.setAttribute("src", "./assets/img/logo-wb.svg");
+      imgLogo.setAttribute("src", "../assets/img/logo-wb.svg");
     } else {
       imgLogo.setAttribute("src", rutaLogo);
     }

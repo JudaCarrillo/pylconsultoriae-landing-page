@@ -15,13 +15,13 @@ section {
 /* SECTION HOME */
 .carousel {
   margin-top: 6rem;
-  /* position: relative; */
-  z-index: 1;
+  position: relative;
+  z-index: 3;
 }
 
 .img-slider {
   width: 100%;
-  height: 750px;
+  max-height: 80vh;
 }
 
 .home {
@@ -151,38 +151,31 @@ section {
   font-size: 2rem;
 }
 
-/* box of experience */
-/* 
-  este div prueba mueve las experiencias (contador) 
-  igualar al margin top que se asigna arriba
-*/
-.prueba {
-  /* margin-top: 50%; */
+.onSlider {
+  position: absolute;
+  z-index: 2;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.counter-content {
+  top: 80%;
+  left: 80%;
+  margin-right: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* prueba de div encima de carousel */
-.prueba2 {
-  position: absolute;
-  background: var(--second-bg-color);
-  width: 70%;
-  color: var(--bg-color);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
- }
-
 .experience {
-  width: 50%;
-  z-index: 99;
+  background: rgba(235, 231, 191, 0.834);
+  border-radius: 10px;
   display: flex;
   justify-content: space-around;
   padding: 1.8rem;
-  border-bottom: 0.7px solid #c7c7c7;
   flex-wrap: wrap;
-  margin-bottom: -6rem;
 }
 
 .box-experience {
@@ -194,11 +187,14 @@ section {
 
 .box-experience b {
   font-size: 5.5rem;
-  color: var(--main-color);
+  /* color: var(--main-color); */
+  color: rgb(176, 137, 88);
 }
 
 /* SECTION EXPERIENCE - CUSTOMERS */
 .experience-customers {
+  position: relative;
+  z-index: -1;
   height: 90%;
 }
 

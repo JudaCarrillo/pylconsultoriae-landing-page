@@ -12,12 +12,20 @@ document.addEventListener("DOMContentLoaded", function () {
 function updateLogo() {
   let header = document.querySelector("header");
 
+  let navbarMovil = document.getElementById("menu-icon");
+  let estilo = window.getComputedStyle(navbarMovil);
+  let vistaMovil = estilo.getPropertyValue("display");
+
   if (header && imgLogo) {
     const isSticky = header.classList.contains("sticky");
 
     if (isSticky) {
       imgLogo.setAttribute("src", "./assets/img/logo-wb.svg");
     } else {
+      imgLogo.setAttribute("src", rutaLogo);
+    }
+
+    if (vistaMovil === "block") {
       imgLogo.setAttribute("src", rutaLogo);
     }
   }

@@ -35,9 +35,9 @@ $classContact = '';
   <!-- Bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <!-- css / templates -->
-  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701920100266">
+  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701969658143">
   <!-- css -->
-  <link rel="stylesheet" href="./assets/css/style.css?t=1701920100266" />
+  <link rel="stylesheet" href="./assets/css/style.css?t=1701969658143" />
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -55,20 +55,36 @@ $classContact = '';
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="./assets/img/Slider1.png" class="d-block img-slider" alt="...">
-        <div class="prueba2">
+        <div class="prueba2 onSlider">
           <p>GAAA</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="./assets/img/Slider2.png" class="d-block img-slider" alt="...">
-        <div class="prueba2">
+        <div class="prueba2 onSlider">
           <p>hola mundo html</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="./assets/img/Slider3.png" class="d-block img-slider" alt="...">
-        <div class="prueba2">
-          <p>carrillin</p>
+        <div class="counter-content onSlider">
+          <div class="experience">
+            <div class="box-experience">
+              <i>Años de Experiencia</i>
+              <br />
+              <b class="num" data-val="12">+00</b>
+            </div>
+            <div class="box-experience">
+              <i>Experiencia en Países</i>
+              <br />
+              <b class="num" data-val="6">0</b>
+            </div>
+            <div class="box-experience">
+              <i>Clientes en D365BC</i>
+              <br />
+              <b class="num" data-val="28">+00</b>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -80,7 +96,7 @@ $classContact = '';
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
- </div>
+  </div>
 
   <!-- /* prueba de div encima de carousel */ -->
   <!-- <div class="prueba2">
@@ -114,7 +130,7 @@ $classContact = '';
     </div> -->
 
 
-  <div class="prueba">
+  <!-- <div class="prueba">
     <div class="experience">
       <div class="box-experience">
         <i>Años de Experiencia</i>
@@ -133,7 +149,7 @@ $classContact = '';
       </div>
     </div>
   </div>
-
+ -->
   <span id="experience"></span>
   <!-- section customer structure -->
   <section class="experience-customers" id="home">
@@ -213,7 +229,7 @@ $classContact = '';
   <!-- scroll reveal / js -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <!-- js -->
-  <script src="./assets/js/main.js?t=1701920100266"></script>
+  <script src="./assets/js/main.js?t=1701969658143"></script>
 </body>
 
 </html>

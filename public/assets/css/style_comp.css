@@ -26,14 +26,15 @@ html {
 body {
   background: var(--bg-color);
   color: var(--text-color);
+  position: relative;
 }
 
 body h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
 }
 
 body h2 {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 body p {
@@ -288,11 +289,11 @@ a {
 @media (max-width: 1440px) {
   /* GEN / HEADER / SECTION HOME */
   body h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   body h2 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   body p {
@@ -317,7 +318,7 @@ a {
     font-size: 1.5rem;
   }
 
-  .footer h4 {
+  .footer .titleSection {
     font-size: 2rem;
   }
 
@@ -348,6 +349,13 @@ a {
 
   .header.sticky {
     background: var(--bg-color);
+  }
+
+  .header.sticky p {
+    color: var(--text-color);
+  }
+  .header.sticky .navbar a.active {
+    color: var(--main-color);
   }
 
   #menu-icon {
@@ -416,11 +424,11 @@ a {
 @media (max-width: 768px) {
   /* GEN / HEADER / SECTION HOME */
   body h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 
   body h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   body p {
@@ -529,11 +537,11 @@ a {
 @media (max-width: 320px) {
   /* GEN / HEADER / SECTION HOME */
   body h1 {
-    font-size: 3.4rem;
+    font-size: 2.9rem;
   }
 
   body h2 {
-    font-size: 2.9rem;
+    font-size: 2.4rem;
   }
 
   body p {

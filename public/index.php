@@ -35,9 +35,9 @@ $classContact = '';
   <!-- Bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <!-- css / templates -->
-  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701914192504">
+  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701920100266">
   <!-- css -->
-  <link rel="stylesheet" href="./assets/css/style.css?t=1701914192504" />
+  <link rel="stylesheet" href="./assets/css/style.css?t=1701920100266" />
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -60,7 +60,11 @@ $classContact = '';
         <img src="./assets/img/Slider2.png" class="d-block img-slider" alt="...">
       </div>
       <div class="carousel-item">
+        <div class="prueba2">
+          <p>hola mundo html</p>
+        </div>
         <img src="./assets/img/Slider3.png" class="d-block img-slider" alt="...">
+
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -72,6 +76,11 @@ $classContact = '';
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+
+  <!-- /* prueba de div encima de carousel */ -->
+  <!-- <div class="prueba2">
+    <p>hola mundo html</p>
+  </div> -->
 
   <!-- <div class="home-content">
       <h1>P&L Consultoría Estratégica</h1>
@@ -199,7 +208,7 @@ $classContact = '';
   <!-- scroll reveal / js -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <!-- js -->
-  <script src="./assets/js/main.js?t=1701914192504"></script>
+  <script src="./assets/js/main.js?t=1701920100266"></script>
 </body>
 
 </html>

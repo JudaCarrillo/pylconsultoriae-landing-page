@@ -15,13 +15,24 @@ section {
 /* SECTION HOME */
 .carousel {
   margin-top: 6rem;
-  position: relative;
+  /* position: relative; */
   z-index: 1;
 }
 
 .img-slider {
   width: 100%;
   height: 750px;
+}
+
+/* prueba de div encima de carousel */
+.prueba2 {
+  margin-top: 5rem;
+
+  position: relative;
+  z-index: 99;
+  background: var(--second-bg-color);
+  width: 70%;
+  color: var(--bg-color);
 }
 
 .home {
@@ -152,7 +163,12 @@ section {
 }
 
 /* box of experience */
+/* 
+  este div prueba mueve las experiencias (contador) 
+  igualar al margin top que se asigna arriba
+*/
 .prueba {
+  margin-top: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -486,6 +502,10 @@ section {
     width: 90%;
   }
 
+  .img-slider {
+    height: 400px;
+  }
+
   .experience-customers .slider {
     margin-top: 3rem;
     flex-direction: column;
@@ -509,12 +529,12 @@ section {
 @media (max-width: 425px) {
   /* GEN / HEADER / SECTION HOME */
   #companies-slider .container .wrapper-holder {
-    grid-template-columns: repeat(26, 35%);
+    grid-template-columns: repeat(26, 40%);
     animation: slider 40s linear infinite;
   }
 
   #partners-slider .container .wrapper-holder {
-    grid-template-columns: repeat(6, 35%);
+    grid-template-columns: repeat(6, 40%);
     animation: partners-slider 6s linear infinite;
   }
 

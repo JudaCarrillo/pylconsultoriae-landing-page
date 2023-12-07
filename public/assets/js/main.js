@@ -1,23 +1,25 @@
-// Cambiar imagen de la barra de navegación en el scroll
-const imgLogo = document.getElementById("imgLogo");
-const rutaLogo = imgLogo.getAttribute("src");
+var rutaLogo, imgLogo;
 
-// Obtener el elemento del encabezado
-let header = document.querySelector("header");
+document.addEventListener("DOMContentLoaded", function () {
+  imgLogo = document.getElementById("imgLogo");
 
-// Almacenar la clase original del encabezado
-const classHeader = header.getAttribute("class");
+  if (imgLogo) {
+    rutaLogo = imgLogo.getAttribute("src");
+    updateLogo();
+  }
+});
 
-// Función para manejar el cambio de imagen en el encabezado
 function updateLogo() {
-  // Verificar si la clase "sticky" está presente en el encabezado
-  const isSticky = header.classList.contains("sticky");
+  let header = document.querySelector("header");
 
-  // Cambiar la imagen del logo en consecuencia
-  if (isSticky) {
-    imgLogo.setAttribute("src", "./assets/img/logo-wb.svg"); // Reemplaza con la ruta correcta para el modo sticky
-  } else {
-    imgLogo.setAttribute("src", rutaLogo); // Restaurar la ruta original cuando no está en modo sticky
+  if (header && imgLogo) {
+    const isSticky = header.classList.contains("sticky");
+
+    if (isSticky) {
+      imgLogo.setAttribute("src", "./assets/img/logo-wb.svg");
+    } else {
+      imgLogo.setAttribute("src", rutaLogo);
+    }
   }
 }
 

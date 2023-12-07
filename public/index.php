@@ -55,16 +55,21 @@ $classContact = '';
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="./assets/img/Slider1.png" class="d-block img-slider" alt="...">
+        <div class="prueba2">
+          <p>GAAA</p>
+        </div>
       </div>
       <div class="carousel-item">
         <img src="./assets/img/Slider2.png" class="d-block img-slider" alt="...">
-      </div>
-      <div class="carousel-item">
         <div class="prueba2">
           <p>hola mundo html</p>
         </div>
+      </div>
+      <div class="carousel-item">
         <img src="./assets/img/Slider3.png" class="d-block img-slider" alt="...">
-
+        <div class="prueba2">
+          <p>carrillin</p>
+        </div>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -75,7 +80,7 @@ $classContact = '';
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
+ </div>
 
   <!-- /* prueba de div encima de carousel */ -->
   <!-- <div class="prueba2">

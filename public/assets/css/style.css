@@ -24,17 +24,6 @@ section {
   height: 750px;
 }
 
-/* prueba de div encima de carousel */
-.prueba2 {
-  margin-top: 5rem;
-
-  position: relative;
-  z-index: 99;
-  background: var(--second-bg-color);
-  width: 70%;
-  color: var(--bg-color);
-}
-
 .home {
   display: flex;
   align-items: center;
@@ -168,11 +157,22 @@ section {
   igualar al margin top que se asigna arriba
 */
 .prueba {
-  margin-top: 50%;
+  /* margin-top: 50%; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/* prueba de div encima de carousel */
+.prueba2 {
+  position: absolute;
+  background: var(--second-bg-color);
+  width: 70%;
+  color: var(--bg-color);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
 
 .experience {
   width: 50%;

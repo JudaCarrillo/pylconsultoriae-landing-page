@@ -15,7 +15,7 @@ function updateLogo() {
 
   // Cambiar la imagen del logo en consecuencia
   if (isSticky) {
-    imgLogo.setAttribute("src", "./assets/img/logo-wb.svg"); // Reemplaza con la ruta correcta para el modo sticky
+    imgLogo.setAttribute("src", "../assets/img/logo-wb.svg"); // Reemplaza con la ruta correcta para el modo sticky
   } else {
     imgLogo.setAttribute("src", rutaLogo); // Restaurar la ruta original cuando no está en modo sticky
   }

@@ -35,9 +35,9 @@ $classContact = '';
   <!-- Bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <!-- css / templates -->
-  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701901402024">
+  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701914192504">
   <!-- css -->
-  <link rel="stylesheet" href="./assets/css/style.css?t=1701901402024" />
+  <link rel="stylesheet" href="./assets/css/style.css?t=1701914192504" />
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -54,13 +54,13 @@ $classContact = '';
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./assets/img/Slider1.jpeg" class="d-block img-slider" alt="...">
+        <img src="./assets/img/Slider1.png" class="d-block img-slider" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="./assets/img/Slider2.jpeg" class="d-block img-slider" alt="...">
+        <img src="./assets/img/Slider2.png" class="d-block img-slider" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="./assets/img/Slider3.jpeg" class="d-block img-slider" alt="...">
+        <img src="./assets/img/Slider3.png" class="d-block img-slider" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -72,28 +72,6 @@ $classContact = '';
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
-
-
-
-
-  <!-- <section class="home" id="home">
-    <div class="slider">
-      <div class="mySlides">
-        <img src="assets/img/Slider1.jpg" class="slide">
-      </div>
-      <div class="mySlides">
-        <img src="assets/img/Slider2.jpg" class="slide">
-      </div>
-      <div class="mySlides">
-        <img src="assets/img/Slider3.jpg" class="slide">
-      </div>
-      <p class="index"></p>
-    </div>
-    <button class="slideBtn" onclick="plusSlides(-1)">&#10094;</button>
-    <button class="slideBtn" onclick="plusSlides(1)">&#10095;</button>
-    <script src="script.js"></script>
-  </section> -->
 
   <!-- <div class="home-content">
       <h1>P&L Consultoría Estratégica</h1>
@@ -221,7 +199,7 @@ $classContact = '';
   <!-- scroll reveal / js -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <!-- js -->
-  <script src="./assets/js/main.js?t=1701901402024"></script>
+  <script src="./assets/js/main.js?t=1701914192504"></script>
 </body>
 
 </html>

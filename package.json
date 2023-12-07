@@ -3,6 +3,6 @@
     "gulp-cache-bust": "^1.4.1"
   },
   "dependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "4.0.2"
   }
 }

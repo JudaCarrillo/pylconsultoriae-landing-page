@@ -1,6 +1,6 @@
 <!-- header -->
-<header class="header">
-    <a href="<?php echo $rutaLogo ?>" class="logo"><img src="<?php echo $rutaImg ?>" alt="Logo de P&L Consultoría Estratégica" />
+<header class="header" id="header">
+    <a href="<?php echo $rutaLogo ?>" class="logo"><img id="imgLogo" src="<?php echo $rutaImg ?>" alt="Logo de P&L Consultoría Estratégica" />
         <p>Consultoría Estratégica</p>
     </a>
 

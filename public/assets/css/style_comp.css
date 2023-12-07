@@ -93,8 +93,12 @@ span {
 .header p {
   margin-top: 2rem;
   margin-left: 1rem;
-  color: var(--bg-color);
+  color: var(--text-color);
   font-size: 1.6rem;
+}
+
+.header.sticky p {
+  color: var(--bg-color);
 }
 
 /* navbar - solo */
@@ -107,9 +111,13 @@ span {
   transition: 0.3s;
 }
 
-.navbar a:hover,
-.navbar a.active {
+.header.sticky .navbar a:hover,
+.header.sticky .navbar a.active {
   color: var(--bg-color);
+}
+
+.navbar a.active {
+  color: var(--main-color);
 }
 
 #menu-icon {

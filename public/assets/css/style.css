@@ -25,9 +25,7 @@ section {
 }
 
 .home-buttons {
-  /* margin-top: 2rem; */
-  margin-top: -20rem;
-
+  margin-top: 2rem;
   margin-left: 2rem;
   margin-right: 2rem;
   display: flex;
@@ -162,14 +160,22 @@ section {
   /* position: absolute; */
   position: relative;
 
-  z-index: 23;
+  /* z-index: 5;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.counter-content {
+  position: relative;
+
+  z-index: 5;
   width: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
 
-.counter-content {
   top: 80%;
   left: 80%;
   margin-right: 10%;
@@ -205,7 +211,7 @@ section {
   position: relative;
   z-index: -1;
   height: 90%;
-  margin-top: -10vh;
+  /* margin-top: -10vh; */
 }
 
 .img-mapa {

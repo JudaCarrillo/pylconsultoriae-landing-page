@@ -35,9 +35,9 @@ $classContact = '';
   <!-- Bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <!-- css / templates -->
-  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701978042865">
+  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701978640713">
   <!-- css -->
-  <link rel="stylesheet" href="./assets/css/style.css?t=1701978042865" />
+  <link rel="stylesheet" href="./assets/css/style.css?t=1701978640713" />
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -243,7 +243,7 @@ $classContact = '';
   <!-- scroll reveal / js -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <!-- js -->
-  <script src="./assets/js/main.js?t=1701978042865"></script>
+  <script src="./assets/js/main.js?t=1701978640713"></script>
 </body>
 
 </html>

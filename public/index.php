@@ -161,6 +161,18 @@ $classContact = '';
       </div>
     </div> -->
 
+  <div class="home-buttons">
+    <div class="btn-box">
+      <a href="./section/about-us.php" class="btn" title="Información sobre P&L">Nosotros</a>
+      <a href="./section/contact.php" class="btn" title="Formulario de Contacto">Contactanos</a>
+    </div>
+
+    <div class="home-sci">
+      <a href="https://www.linkedin.com/company/pyl-consultor%C3%ADa/" target="_blank" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+    </div>
+  </div>
+
+
 
   <!-- <div class="prueba">
     <div class="experience">
@@ -182,6 +194,8 @@ $classContact = '';
     </div>
   </div>
  -->
+
+ 
   <span id="experience"></span>
   <!-- section customer structure -->
   <section class="experience-customers" id="home">
@@ -261,7 +275,7 @@ $classContact = '';
   <!-- scroll reveal / js -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <!-- js -->
-  <script src="./assets/js/main.js?t=1701978342228"></script>
+  <script src="./assets/js/main.js?t=1701978640713"></script>
 </body>
 
 </html>

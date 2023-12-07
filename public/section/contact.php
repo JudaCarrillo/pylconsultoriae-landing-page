@@ -130,9 +130,15 @@ $classContact = 'active';
   <!-- js / jquery -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <!-- js / form  -->
+<<<<<<< HEAD
   <script src="../assets/js/form.js?t=1701978342242"></script>
   <!-- js / navbar -->
   <script src="../assets/js/section.js?t=1701978342242"></script>
+=======
+  <script src="../assets/js/form.js?t=1701978640723"></script>
+  <!-- js / navbar -->
+  <script src="../assets/js/section.js?t=1701978640723"></script>
+>>>>>>> refs/remotes/origin/main
 </body>
 
 </html>

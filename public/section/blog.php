@@ -182,7 +182,11 @@ $classContact = '';
   ?>
 
   <!-- js -->
+<<<<<<< HEAD
   <script src="../assets/js/section.js?t=1701978342241"></script>
+=======
+  <script src="../assets/js/section.js?t=1701978640722"></script>
+>>>>>>> refs/remotes/origin/main
 </body>
 
 </html>

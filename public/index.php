@@ -35,9 +35,9 @@ $classContact = '';
   <!-- Bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   <!-- css / templates -->
-  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701969658143">
+  <link rel="stylesheet" href="./assets/css/style_comp.css?t=1701978042865">
   <!-- css -->
-  <link rel="stylesheet" href="./assets/css/style.css?t=1701969658143" />
+  <link rel="stylesheet" href="./assets/css/style.css?t=1701978042865" />
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/img/logo.svg" type="image/x-icon" />
   <!-- boxicons -->
@@ -55,8 +55,8 @@ $classContact = '';
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="./assets/img/Slider1.png" class="d-block img-slider" alt="...">
-        <div class="prueba2 onSlider">
-          <p>GAAA</p>
+        <div class="inf-company onSlider">
+
         </div>
       </div>
       <div class="carousel-item">
@@ -129,6 +129,18 @@ $classContact = '';
       </div>
     </div> -->
 
+  <div class="home-buttons">
+    <div class="btn-box">
+      <a href="./section/about-us.php" class="btn" title="Información sobre P&L">Nosotros</a>
+      <a href="./section/contact.php" class="btn" title="Formulario de Contacto">Contactanos</a>
+    </div>
+
+    <div class="home-sci">
+      <a href="https://www.linkedin.com/company/pyl-consultor%C3%ADa/" target="_blank" title="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+    </div>
+  </div>
+
+
 
   <!-- <div class="prueba">
     <div class="experience">
@@ -150,6 +162,8 @@ $classContact = '';
     </div>
   </div>
  -->
+
+ 
   <span id="experience"></span>
   <!-- section customer structure -->
   <section class="experience-customers" id="home">
@@ -229,7 +243,7 @@ $classContact = '';
   <!-- scroll reveal / js -->
   <script src="https://unpkg.com/scrollreveal"></script>
   <!-- js -->
-  <script src="./assets/js/main.js?t=1701969658143"></script>
+  <script src="./assets/js/main.js?t=1701978042865"></script>
 </body>
 
 </html>

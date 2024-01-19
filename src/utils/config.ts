@@ -132,7 +132,7 @@ const getI18N = () => {
   }) as I18NConfig;
 };
 
-const getAppBlog = () => {
+/* const getAppBlog = () => {
   const _default = {
     isEnabled: false,
     postsPerPage: 6,
@@ -171,7 +171,7 @@ const getAppBlog = () => {
   };
 
   return merge({}, _default, config?.apps?.blog ?? {}) as AppBlogConfig;
-};
+}; */
 
 const getUI = () => {
   const _default = {
@@ -199,6 +199,6 @@ const getAnalytics = () => {
 export const SITE = getSite();
 export const I18N = getI18N();
 export const METADATA = getMetadata();
-export const APP_BLOG = getAppBlog();
+// export const APP_BLOG = getAppBlog();
 export const UI = getUI();
 export const ANALYTICS = getAnalytics();

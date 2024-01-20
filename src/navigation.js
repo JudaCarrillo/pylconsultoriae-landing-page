@@ -36,7 +36,7 @@ export const footerData = {
       links: [
         { text: '+51 901013293' },
         { text: '01 - 7012382' },
-        { text: 'comercial@pylconsultoria' },
+        { text: 'comercial@pylconsultoriae' },
       ],
     }
   ],

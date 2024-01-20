@@ -1,9 +1,7 @@
 ---
-import CallToAction from '~/components/widgets/CallToAction.astro';
 import Content from '~/components/widgets/Content.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Hero from '~/components/widgets/Hero.astro';
-import Testimonials from '~/components/widgets/Testimonials.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
 const metadata = {
@@ -15,10 +13,10 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    tagline="Services"
-    title="Elevate your projects with our stunning templates"
-    subtitle="Explore our meticulously crafted templates tailored to various industries and purposes. From captivating presentations to functional website designs, we offer the tools you need to succeed."
-    actions={[{ variant:"primary", target: '_blank', text: 'Start exploring', href: '/' }]}
+    tagline="Servicios"
+    title="Potencia tus proyectos con nuestras soluciones innovadoras"
+    subtitle="Descubre nuestras soluciones expertas, diseñadas minuciosamente para impulsar la transformación digital de tu empresa. Desde la consultoría estratégica hasta el desarrollo personalizado, estamos aquí para potenciar tus proyectos hacia el éxito."
+    actions={[{ variant: 'primary', text: 'Empieza a explorar', href: '/' }]}
     image={{
       src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
       alt: 'AstroWind Hero Image',
@@ -28,61 +26,32 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Explore our diverse templates"
-    subtitle="Discover our selection below to streamline and elevate your projects."
-    columns={3}
+    title="Explora nuestros servicios"
+    subtitle="Optimice sus proyectos con nuestra selección de servicios especializados."
+    columns={2}
     items={[
       {
-        title: 'Educational',
+        title: 'Formación',
         description:
-          'By harmonizing instructional design and visual appeal, templates streamline content creation for varied materials, expediting development and cultivating engaging educational spaces.',
+          'Ponemos toda la experiencia de nuestros consultores para que tus recursos cuenten con una cualificación óptima y acorde a las expectativas de tus clientes y organización.',
         icon: 'tabler:school',
       },
       {
-        title: 'Interior Design',
+        title: 'Consultoría',
         description:
-          'Crafting functional, visually appealing spaces for residential and commercial use. Templates emphasize layout, colors, and furniture setups, offering a versatile toolkit for your design vision.',
+          'Comprometidos y en colaboración constante con nuestros clientes y partners de Microsoft en ayudarlos en la puesta en marcha, configuración, formación, uso y soporte del ERP Microsoft Dynamics 365 Business Central SaaS.',
         icon: 'tabler:home-star',
       },
       {
-        title: 'Photography',
-        description: `Empowering photographers, our templates facilitate captivating storytelling. With a keen focus on layout, galleries, and typography, they cater to both professionals and enthusiasts.`,
-        icon: 'tabler:photo',
-      },
-      {
-        title: 'E-commerce',
-        description:
-          'Developing engaging online stores, our E-commerce templates ensure a dynamic presence to effectively showcase products. Ideal for startups or revamps.',
-        icon: 'tabler:shopping-cart',
-      },
-      {
-        title: 'Blog',
-        description:
-          'With attention to typography, these templates empower effective content presentation for writers at any stage, ensuring visually engaging and user-friendly blogs.',
-        icon: 'tabler:article',
-      },
-      {
-        title: 'Business',
-        description:
-          'Providing polished options for effective visual communication, these templates empower both startups and established companies for a professional brand presence.',
+        title: 'Dirección de proyectos',
+        description: `Te ayudaremos a tomar las mejores decisiones en todas las etapas de tu proyecto de implementación y/o desarrollo embebido en el ERP Microsoft Dynamics 365 Business Central SaaS.`,
         icon: 'tabler:building-store',
       },
       {
-        title: 'Branding',
+        title: 'Software Factory',
         description:
-          'Offering pre-designed elements for a consistent brand identity, including logos and marketing materials. Ideal for new ventures or revamps.',
+          'Amplia experiencia desarrollando funcionalidades escalables y extensiones embebidas en el ERP del mayor fabricante del mundo de software, Microsoft en su ERP Dynamics 365 Business Central y SaaS.',
         icon: 'tabler:arrow-big-up-lines',
-      },
-      {
-        title: 'Medical',
-        description: `From presentations to patient forms, these tools enhance communication effectiveness for healthcare professionals. Ideal for medical practices and research pursuits.`,
-        icon: 'tabler:vaccine',
-      },
-      {
-        title: 'Fashion Design',
-        description:
-          'With attention to detail, customization, and contemporary design, they empower designers to showcase ideas cohesively. Ideal for all levels of designers.',
-        icon: 'tabler:tie',
       },
     ]}
   />
@@ -93,27 +62,21 @@ const metadata = {
     isReversed
     items={[
       {
-        title: 'High-Quality Designs',
+        title: 'Especialización en Tecnología Microsoft SaaS:',
         description:
-          'Our templates feature top-tier designs that ensure a professional and polished appearance for your projects.',
-        icon: 'tabler:wand',
-      },
-      {
-        title: 'Customization Tools',
-        description:
-          'Tailor each template to your unique needs with user-friendly customization tools that let you personalize colors, fonts, and content.',
+          'Equipo altamente especializado en tecnología Microsoft SaaS, con más de 15 años de experiencia en consultoría y programación de soluciones a medida.',
         icon: 'tabler:settings',
       },
       {
-        title: 'Pre-Designed Elements',
+        title: 'Joven y en Crecimiento',
         description:
-          'Save time and effort with our ready-to-use elements, including graphics, icons, and layouts that enhance the visual appeal of your creations.',
+          'P&L Consultoría Estratégica es una consultora en crecimiento con profesionales experimentados en servicios de implementación y outsourcing.',
         icon: 'tabler:presentation',
       },
       {
-        title: 'Preview and Mockup Views',
+        title: 'Cobertura Internacional',
         description:
-          'Visualize the final outcome before making any changes using our preview and mockup views, ensuring your projects meet your expectations.',
+          'Apoyo a clientes y partners de Microsoft en varios países, incluyendo Chile, España, Bolivia, México, Paraguay y Perú.',
         icon: 'tabler:carousel-horizontal',
       },
     ]}
@@ -123,7 +86,7 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Main Features</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Principales caraterísticas</h3>
     </Fragment>
   </Content>
 
@@ -133,28 +96,28 @@ const metadata = {
     isAfterContent
     items={[
       {
-        title: 'Time Savings',
+        title: 'Compromiso y Colaboración Constante',
         description:
-          'Streamline your workflow, enabling you to create stunning materials efficiently and allocate more time to your core tasks.',
+          'Ofrecemos servicios de consultoría comprometidos y colaborativos, brindando soporte en la implementación, configuración, formación y uso del ERP Dynamics 365 Business Central SaaS.',
         icon: 'tabler:clock',
       },
       {
-        title: 'Professional Appearance',
+        title: 'Amplia Experiencia en Desarrollo',
         description:
-          'Elevate your projects with the polished and sophisticated look that our templates provide, making a lasting impression on your audience.',
-        icon: 'tabler:school',
+          'La Software Factory cuenta con experiencia en el desarrollo de funcionalidades escalables y extensiones embebidas en el ERP de Microsoft, líder mundial en software.',
+        icon: 'tabler:file-download',
       },
       {
-        title: 'Cost-Efficiency',
+        title: 'Asesoramiento en Dirección de Proyectos',
         description:
-          'Benefit from cost savings by avoiding the need for custom design work, as our templates offer professional-grade designs at a fraction of the cost.',
+          'Proporcionamos asesoramiento integral en la dirección de proyectos, ayudando a tomar decisiones acertadas en todas las etapas de la implementación y desarrollo.',
         icon: 'tabler:coin',
       },
       {
-        title: 'Instant Download',
+        title: 'Formación Especializada',
         description:
-          'Enjoy immediate access to your chosen templates upon purchase, enabling you to begin working on your projects without delay.',
-        icon: 'tabler:file-download',
+          'Ofrecemos formación especializada para que los recursos de nuestros clientes adquieran una cualificación óptima y cumplan con las expectativas de la organización.',
+        icon: 'tabler:school',
       },
     ]}
     image={{
@@ -163,60 +126,7 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Benefits</h3>
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Beneficios</h3>
     </Fragment>
   </Content>
-
-  <!-- Testimonials Widget *********** -->
-
-  <Testimonials
-    title="Words from real customers"
-    testimonials={[
-      {
-        testimonial: `The designs are not only visually appealing but also highly professional. The templates have saved me a significant amount of time while helping me make a lasting impression on my clients.`,
-        name: 'Emily Kennedy',
-        job: 'Front-end developer',
-        image: {
-          src: 'https://images.unsplash.com/photo-1618835962148-cf177563c6c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=930&q=80',
-          alt: 'Emily Kennedy Image',
-        },
-      },
-      {
-        testimonial: `It beautifully showcases my work, with its clean and elegant design that lets my photographs shine. Customization was a breeze, even for a non-tech person like me. The result is a professional and immersive portfolio that's garnered numerous compliments.`,
-        name: 'Sarah Hansen',
-        job: 'Photographer',
-        image: {
-          src: 'https://images.unsplash.com/photo-1561406636-b80293969660?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-          alt: 'Sarah Hansen Image',
-        },
-      },
-      {
-        testimonial: `I discovered these templates and I'm impressed by their variety and quality. They've helped me establish a consistent brand image across my marketing and social platforms, elevating my business's overall appearance.`,
-        name: 'Mark Wilkinson',
-        job: 'Small business owner',
-        image: {
-          src: 'https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=824&q=80',
-          alt: 'Mark Wilkinson Image',
-        },
-      },
-    ]}
-    callToAction={{
-      target: '_blank',
-      text: 'More testimonials...',
-      href: 'https://github.com/onwidget/astrowind',
-      icon: 'tabler:chevron-right',
-    }}
-  />
-
-  <!-- CallToAction Widget *********** -->
-
-  <CallToAction
-    actions={[{
-      variant: "primary",
-      text: 'Start exploring',
-      href: '/',
-    }]}
-    title="Dive into our template collection"
-    subtitle="Whether you're in business, design, or education, our templates are here to elevate your projects."
-  />
 </Layout>

@@ -1,0 +1,130 @@
+---
+import Content from "~/components/widgets/Content.astro";
+import Features2 from "~/components/widgets/Features2.astro";
+import Hero from "~/components/widgets/Hero.astro";
+import Layout from "~/layouts/PageLayout.astro";
+---
+
+<Layout>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Servicios"
+    title="Potencia tus proyectos con nuestras soluciones innovadoras"
+    subtitle="Descubre nuestras soluciones expertas, diseñadas minuciosamente para impulsar la transformación digital de tu empresa. Desde la consultoría estratégica hasta el desarrollo personalizado, estamos aquí para potenciar tus proyectos hacia el éxito."
+    actions={[{ variant: "primary", text: "Empieza a explorar", href: "/" }]}
+    image={{
+      src: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+      alt: "AstroWind Hero Image",
+    }}
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Explora nuestros servicios"
+    subtitle="Optimice sus proyectos con nuestra selección de servicios especializados."
+    columns={2}
+    items={[
+      {
+        title: "Formación",
+        description:
+          "Ponemos toda la experiencia de nuestros consultores para que tus recursos cuenten con una cualificación óptima y acorde a las expectativas de tus clientes y organización.",
+        icon: "tabler:school",
+      },
+      {
+        title: "Consultoría",
+        description: `Comprometidos y en colaboración constante con nuestros clientes y partners de <span class="font-semibold">Microsoft</span> en ayudarlos en la puesta en marcha, configuración, formación, uso y soporte del <span class="font-semibold">ERP Microsoft Dynamics 365 Business Central SaaS</span>.`,
+        icon: "tabler:home-star",
+      },
+      {
+        title: "Dirección de proyectos",
+        description: `Te ayudaremos a tomar las mejores decisiones en todas las etapas de tu proyecto de implementación y/o desarrollo embebido en el <span class="font-semibold">ERP Microsoft Dynamics 365 Business Central SaaS</span>.`,
+        icon: "tabler:building-store",
+      },
+      {
+        title: "Software Factory",
+        description: `Amplia experiencia desarrollando funcionalidades escalables y extensiones embebidas en el ERP del mayor fabricante del mundo de software, <span class="font-semibold">Microsoft en su ERP Dynamics 365 Business Central y SaaS</span>.`,
+        icon: "tabler:arrow-big-up-lines",
+      },
+    ]}
+  />
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isReversed
+    items={[
+      {
+        title: `Especialización en Tecnología Microsoft SaaS`,
+        description: `Equipo altamente especializado en tecnología <span class="font-semibold">Microsoft SaaS</span>, con más de 15 años de experiencia en consultoría y programación de soluciones a medida.`,
+        icon: "tabler:settings",
+      },
+      {
+        title: "Joven y en Crecimiento",
+        description:
+          "P&L Consultoría Estratégica es una consultora en crecimiento con profesionales experimentados en servicios de implementación y outsourcing.",
+        icon: "tabler:presentation",
+      },
+      {
+        title: "Cobertura Internacional",
+        description: `Apoyo a clientes y partners de <span class="font-semibold">Microsoft</span> en varios países, incluyendo Chile, España, Bolivia, México, Paraguay y Perú.`,
+        icon: "tabler:carousel-horizontal",
+      },
+    ]}
+    image={{
+      src: "https://img.freepik.com/foto-gratis/persona-apuntando-america-sur-mapa_23-2148748635.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1705708800&semt=ais",
+      alt: "Features Image",
+    }}
+  >
+    <Fragment slot="content">
+      <h3
+        class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2"
+      >
+        Principales caraterísticas
+      </h3>
+    </Fragment>
+  </Content>
+
+  <!-- Content Widget **************** -->
+
+  <Content
+    isAfterContent
+    items={[
+      {
+        title: "Compromiso y Colaboración Constante",
+        description: `Ofrecemos servicios de consultoría comprometidos y colaborativos, brindando soporte en la implementación, configuración, formación y uso del <span class="font-semibold">ERP Dynamics 365 Business Central SaaS</span>.`,
+        icon: "tabler:clock",
+      },
+      {
+        title: "Amplia Experiencia en Desarrollo",
+        description: `La Software Factory cuenta con experiencia en el desarrollo de funcionalidades escalables y extensiones embebidas en el <span class="font-semibold">ERP de Microsoft</span>, líder mundial en software.`,
+        icon: "tabler:file-download",
+      },
+      {
+        title: "Asesoramiento en Dirección de Proyectos",
+        description:
+          "Proporcionamos asesoramiento integral en la dirección de proyectos, ayudando a tomar decisiones acertadas en todas las etapas de la implementación y desarrollo.",
+        icon: "tabler:coin",
+      },
+      {
+        title: "Formación Especializada",
+        description:
+          "Ofrecemos formación especializada para que los recursos de nuestros clientes adquieran una cualificación óptima y cumplan con las expectativas de la organización.",
+        icon: "tabler:school",
+      },
+    ]}
+    image={{
+      src: "https://images.unsplash.com/photo-1552664688-cf412ec27db2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+      alt: "Benefits Image",
+    }}
+  >
+    <Fragment slot="content">
+      <h3
+        class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2"
+      >
+        Beneficios
+      </h3>
+    </Fragment>
+  </Content>
+</Layout>

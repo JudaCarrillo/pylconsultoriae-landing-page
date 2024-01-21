@@ -1,0 +1,137 @@
+---
+import Features2 from "~/components/widgets/Features2.astro";
+import Features3 from "~/components/widgets/Features3.astro";
+import Hero from "~/components/widgets/Hero.astro";
+import Stats from "~/components/widgets/Stats.astro";
+import Steps2 from "~/components/widgets/Steps2.astro";
+import Layout from "~/layouts/PageLayout.astro";
+---
+
+<Layout>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline="Sobre Nosotros"
+    image={{
+      src: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      alt: "Caos Image",
+    }}
+  >
+    <Fragment slot="title">Potencia tu compañía con nosotros</Fragment>
+
+    <Fragment slot="subtitle">
+      Somos una compañía de conocimientos sólidos de las distintas versiones del
+      <span class="font-semibold">ERP Microsoft Dynamics</span>, con clara
+      vocación de servicios de alta calidad y con amplia experiencia en
+      consultoría de procesos de implementación de soluciones <span
+        class="font-semibold">ERP de Microsoft</span
+      > y de desarrollo de soluciones a medida en web y escritorio.
+    </Fragment>
+  </Hero>
+
+  <!-- Stats Widget ****************** -->
+
+  <Stats
+    title="Nuestra Experiencia"
+    stats={[
+      { title: "Años de Experiencia", amount: "+18" },
+      { title: "Experiencia en Países", amount: "06" },
+      { title: "Clientes en D365BC", amount: "+28" },
+    ]}
+  />
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    title="Nuestros Objetivos"
+    subtitle=`Actualmente, compañías y partners de <span class="font-semibold" >Microsoft</span> de diferentes sectores empresariales de Latinoamérica Centroamérica y España confían en nuestro equipo de trabajo.`
+    columns={3}
+    isBeforeContent={true}
+    items={[
+      {
+        title: "Desarrollo Tecnológico Integral",
+        description: `Contribuimos con nuestro amplio conocimiento en procesos y extensiones desarrollados por expertos en el lenguaje de programación de <span class="font-semibold">Microsoft</span>, ofreciendo soluciones tecnológicas integrales.`,
+        icon: "tabler:template",
+      },
+      {
+        title: "Colaboración Multisectorial",
+        description: `Colaboramos con diversos sectores empresariales y socios de negocio de Microsoft, brindando servicios de desarrollo, implementación, consultoría y optimización de procesos en el <span class="font-semibold">ERP Microsoft Dynamics NAV y Dynamics 365 Business Central SaaS.</span>`,
+        icon: "tabler:template",
+      },
+      {
+        title: "Éxito Proyecto a Proyecto",
+        description: `Colaborar en el éxito de tus proyectos, aportando más de 18 años de experiencia en consultoría de negocio y programación embebida en <span class="font-semibold">Microsoft Dynamics NAV y Dynamics 365 Business Central</span>, desarrollando aplicaciones a medida en escritorio y web.`,
+        icon: "tabler:template",
+      },
+    ]}
+  />
+
+  <!-- Features3 Widget ************** -->
+
+  <Features3
+    columns={3}
+    isAfterContent={true}
+    image={{
+      src: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+      alt: "Colorful Image",
+    }}
+  />
+
+  <!-- Steps2 Widget ****************** -->
+
+  <Steps2
+    title="Nuestros Valores"
+    subtitle=`En el corazón de nuestra misión se encuentran valores fundamentales: Excelencia Tecnológica, Compromiso Colaborativo y una Trayectoria de más de 18 años en consultoría y programación con <span class="font-semibold">Microsoft Dynamics NAV y Dynamics 365 Business Central</span>.`
+    items={[
+      {
+        title: "Excelencia Tecnológica",
+        description: `Priorizamos la excelencia en el desarrollo tecnológico, aplicando conocimientos especializados en el lenguaje de programación de <span class="font-semibold">Microsoft</span> para ofrecer soluciones de alta calidad.`,
+      },
+      {
+        title: "Compromiso Colaborativo",
+        description:
+          "Nos comprometemos a colaborar estrechamente con nuestros clientes y socios de negocio, proporcionando servicios personalizados que se adapten a las necesidades empresariales actuales.",
+      },
+      {
+        title: "Experiencia y Trayectoria",
+        description: `Valoramos nuestra experiencia de más de 18 años en consultoría de negocio y programación embebida en <span class="font-semibold">Microsoft Dynamics NAV y Dynamics 365 Business Central</span>, ofreciendo un respaldo sólido para el éxito continuo de los proyectos.`,
+      },
+    ]}
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Nuestras ubicaciones"
+    tagline="Encuéntranos"
+    columns={1}
+    items={[
+      {
+        title: "Perú",
+        description: "Calle las Camelias 877 San Isidro",
+      },
+    ]}
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Área Comercial"
+    tagline="Contáctanos"
+    columns={2}
+    items={[
+      {
+        title: "Habla con nosotros",
+        description:
+          "Ponte en contacto con nosotros a través de WhatsApp escribiendo al número +51 901013293.",
+        icon: "tabler:messages",
+      },
+      {
+        title: "Llámanos",
+        description:
+          "Ponte en contacto con nosotros llamando al número de teléfono fijo +51 01 7012382.",
+        icon: "tabler:headset",
+      },
+    ]}
+  />
+</Layout>

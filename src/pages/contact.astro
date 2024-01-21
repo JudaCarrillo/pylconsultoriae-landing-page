@@ -1,0 +1,64 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import ContactUs from '~/components/widgets/Contact.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'Contact',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText tagline="Contacto" title="Conectémonos!" />
+
+  <ContactUs
+    title="Envíanos un mensaje hoy!"
+    subtitle="Nuestro equipo de soporte estará encantado de ayudarle."
+    inputs={[
+      {
+        type: 'text',
+        name: 'from_name',
+        label: 'Nombre',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'Correo',
+      },
+    ]}
+    textarea={{
+      label: 'Mensaje',
+    }}
+    disclaimer={{
+      label:
+        'Al enviar este formulario de contacto, usted reconoce y acepta la recopilación de su información personal.',
+    }}
+    description="Nuestro equipo de soporte normalmente responde dentro de las 24 horas hábiles."
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Estamos aquí para ayudarte!"
+    items={[
+      {
+        title: 'Nro. de teléfono',
+        description: '+51 901013293',
+        icon: 'tabler:headset',
+      },
+      {
+        title: 'Correo electrónico',
+        description: 'comercial@pylconsultoriae.com',
+        icon: 'tabler:mail',
+      },
+      {
+        title: 'Ubicación',
+        description: 'Calle las Camelias 877 San Isidro, Perú',
+        icon: 'tabler:map-pin',
+      },
+    ]}
+  />
+</Layout>
